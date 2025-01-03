@@ -5,6 +5,7 @@ import Slider from "@/components/Slider";
 import Development from "@/components/Development";
 import VerticalTab from "@/components/VerticalTab";
 import Testimonial from "@/components/Testimonial";
+import Industries from "@/components/Industries";
 
 export default function App() {
   return (
@@ -36,7 +37,9 @@ export default function App() {
           <p className="text-black text-2xl py-8"> Proud to serve as the innovation partner for industry leaders who have experienced our <br/> expertise and excellence firsthand. </p>
           <Testimonial />
         </div>
-        sadisajdi
+        <div>
+          <Industries/>
+        </div>
         </div>
     </div>
   );
