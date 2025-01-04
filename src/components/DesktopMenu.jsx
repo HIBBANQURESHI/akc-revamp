@@ -19,7 +19,7 @@ const Navbar = () => {
         className={`fixed inset-0 bg-transparent flex flex-col ${isMobileNavOpen ? 'flex' : 'hidden'}`}
       >
         <div className="flex items-center h-16 px-5">
-          <h1 className="text-4xl font-comforter">AKC</h1>
+        <img src='assets/logo.png' className='w-20 h-20 ml-16 mt-5'/>
         </div>
         <ul className="flex flex-col items-center space-y-6 mt-8">
           <li>
@@ -73,7 +73,7 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="fixed top-0 py-9 left-0 w-full h-16 bg-transparent flex items-center justify-between px-5 z-50 backdrop-blur-lg">
         <div className="flex items-center">
-          <h1 className="text-4xl text-white font-comforter">AKC</h1>
+        <img src='assets/logo.png' className='w-20 h-20 ml-16 mt-5'/>
         </div>
 
         <ul className="hidden md:flex justify-center w-full space-x-12 mr-28 py-18">
@@ -81,43 +81,43 @@ const Navbar = () => {
           <li className="relative group">
             <a
               href="#"
-              className="nav-link text-white font-semibold"
+              className="nav-link text-black font-semibold font-sans"
             >
-              Services
+              Services 
             </a>
-            <ul className="absolute left-0 hidden bg-white text-black space-y-6 px-10 py-2 group-hover:block flex ">
+            <ul className="rounded-lg absolute left-0 hidden backdrop-blur-lg bg-black/30  text-yellow-500 space-y-6 px-10 py-2 group-hover:block group-hover:flex group-hover:flex-col">
               <li>
-                <a href="/service1" className="text-md font-normal hover:text-blue-500">
+                <a href="/website" className="text-md font-normal font-sans hover:text-white">
                   Web Development
                 </a>
               </li>
               <li>
-                <a href="/service2" className="text-md font-normal hover:text-blue-500">
+                <a href="/service2" className="text-md font-normal font-sans hover:text-white">
                   Mobile App
                 </a>
               </li>
               <li>
-                <a href="/service3" className="text-md font-normal hover:text-blue-500">
+                <a href="/service3" className="text-md font-normal font-sans hover:text-white">
                   Logo
                 </a>
               </li>
               <li>
-                <a href="/service4" className="text-md font-normal hover:text-blue-500">
+                <a href="/service4" className="text-md font-normal font-sans hover:text-white">
                   Branding
                 </a>
               </li>
               <li>
-                <a href="/service5" className="text-md font-normal hover:text-blue-500">
+                <a href="/service5" className="text-md font-normal font-sans hover:text-white">
                   SMM
                 </a>
               </li>
-            </ul>
+            </ul> 
           </li>
-          
+
           <li>
             <a
               href="/about" // Replace with your route
-              className="nav-link text-white font-semibold"
+              className="nav-link text-black font-semibold font-sans"
             >
               Solutions
             </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <li>
             <a
               href="/services" // Replace with your route
-              className="nav-link text-white font-semibold"
+              className="nav-link text-black font-semibold font-sans"
             >
               Work
             </a>
@@ -133,7 +133,7 @@ const Navbar = () => {
           <li>
             <a
               href="/careers" // Replace with your route
-              className="nav-link text-white font-semibold "
+              className="nav-link text-black font-semibold font-sans"
             >
               Company
             </a>
@@ -141,7 +141,7 @@ const Navbar = () => {
           <li>
             <a
               href="/contact" // Replace with your route
-              className="nav-link text-white font-semibold"
+              className="nav-link text-black font-semibold"
             >
               Contact
             </a>
