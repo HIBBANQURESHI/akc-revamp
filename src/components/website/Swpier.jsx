@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from "aos"; // Import AOS
+import "aos/dist/aos.css"; // Import AOS styles
 
 const cardsData = [
   { heading: "Finance", paragraph: "Improve efficency and security." },
@@ -13,8 +15,24 @@ const cardsData = [
 ];
 
 export default function Swiper() {
+
+  useEffect(() => {
+      AOS.init({ duration: 1000, once: false }); // Initialize AOS with settings
+      window.addEventListener('scroll', () => {
+        AOS.refresh(); // Refresh AOS on scroll
+      });
+  
+      // Clean up the event listener when the component is unmounted
+      return () => {
+        window.removeEventListener('scroll', () => {
+          AOS.refresh();
+        });
+      };
+    }, []);
+  
+
   return (
-    <div className="container mx-auto mt-4">
+    <div className="container mx-auto mt-4" data-aos="fade-down" data-aos-duration="1000">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {cardsData.map((card, index) => (
           <div

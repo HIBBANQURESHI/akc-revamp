@@ -33,7 +33,17 @@ const Counter = ({ endValue, duration }) => {
 
 const Index = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Initialize AOS with settings
+    AOS.init({ duration: 1000, once: false }); // Initialize AOS with settings
+    window.addEventListener('scroll', () => {
+      AOS.refresh(); // Refresh AOS on scroll
+    });
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener('scroll', () => {
+        AOS.refresh();
+      });
+    };
   }, []);
 
   return (
@@ -69,7 +79,7 @@ const Index = () => {
           {/* Projects */}
           <div
             className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-up"
+            data-aos="fade-down"
           >
             <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={700} duration={2000} />
@@ -83,7 +93,7 @@ const Index = () => {
           {/* Developers */}
           <div
             className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-up"
+            data-aos="fade-down"
           >
             <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={250} duration={2000} />
@@ -97,8 +107,7 @@ const Index = () => {
           {/* Experience */}
           <div
             className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-up"
-            
+            data-aos="fade-down"
           >
             <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={15} duration={2000} />
@@ -111,42 +120,60 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="px-72" >
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black"> Comprehensive web development services. </h2>
-        <Services/>
+      <div className="px-72">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
+          Comprehensive web development services.
+        </h2>
+        <Services />
       </div>
 
-      <div className="py-36" style={{
-            backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-            backgroundColor: "#3b82f6", 
-            backgroundSize: "100% 100%",
-          }}> 
-        <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> Serving a variety of 
-        <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> industry. </span> </h2>
-        <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10"> Cubix provides innovative web solutions for businesses across multiple sectors. </p>
-        <Swiper/>               
+      <div
+        className="py-36"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
+          backgroundColor: "#3b82f6",
+          backgroundSize: "100% 100%",
+        }}
+      >
+        <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
+          Serving a variety of
+          <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
+            industry.
+          </span>
+        </h2>
+        <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10">
+          Cubix provides innovative web solutions for businesses across multiple
+          sectors.
+        </p>
+        <Swiper />
       </div>
 
       <div className="py-32">
-        <FAQ/>
+        <FAQ />
       </div>
 
       <div className="text-center" data-aos="fade-down" data-aos-duration="1000">
-          <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6"> Pull The Trigger! </p>
-          <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6" >
-              Ready to start
-              <span className="py-5 block">your web project?</span>              
-          </h2>
+        <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
+          Pull The Trigger!
+        </p>
+        <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
+          Ready to start
+          <span className="py-5 block">your web project?</span>
+        </h2>
       </div>
 
       <div className="py-36"></div>
-        <div style={{
-            backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-            backgroundColor: "#3b82f6", 
-            backgroundSize: "100% 100%",
-          }}>
-         <Footer/>
-        </div>
+      <div
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
+          backgroundColor: "#3b82f6",
+          backgroundSize: "100% 100%",
+        }}
+      >
+        <Footer />
+      </div>
     </div>
   );
 };

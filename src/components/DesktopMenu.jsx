@@ -19,12 +19,12 @@ const Navbar = () => {
         className={`fixed inset-0 bg-transparent flex flex-col ${isMobileNavOpen ? 'flex' : 'hidden'}`}
       >
         <div className="flex items-center h-16 px-5">
-        <img src='assets/logo.png' className='w-20 h-20 ml-16 mt-5'/>
+        <img src='assets/logo.png' className='w-20 h-20 ml-16 mt-5' href="/"/>
         </div>
         <ul className="flex flex-col items-center space-y-6 mt-8">
           <li>
             <a
-              href="/home" // Replace with your route
+              href="/" // Replace with your route
               className="nav-link text-2xl text-black"
               onClick={closeMobileNav}
             >
@@ -73,14 +73,16 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="fixed top-0 py-9 left-0 w-full h-16 bg-transparent flex items-center justify-between px-5 z-50 backdrop-blur-lg">
         <div className="flex items-center">
-        <img src='assets/logo.png' className='w-20 h-20 ml-16 mt-5'/>
+        <a href="/">
+        <img src="assets/logo.png" className="w-14 h-20 ml-40 mt-1" alt="Logo" />
+        </a>
         </div>
 
         <ul className="hidden md:flex justify-center w-full space-x-12 mr-28 py-18">
           {/* Services Dropdown */}
           <li className="relative group">
             <a
-              href="#"
+              href="/"
               className="nav-link text-black font-semibold font-sans"
             >
               Services 
@@ -97,7 +99,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/service3" className="text-md font-normal font-sans hover:text-white">
+                <a href="/logo" className="text-md font-normal font-sans hover:text-white">
                   Logo
                 </a>
               </li>
