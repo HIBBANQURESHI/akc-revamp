@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/about" // Replace with your route
+              href="/solution" // Replace with your route
               className="nav-link text-2xl text-black"
               onClick={closeMobileNav}
             >
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/services" // Replace with your route
+              href="/" // Replace with your route
               className="nav-link text-2xl text-black"
               onClick={closeMobileNav}
             >
@@ -51,7 +51,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/careers" // Replace with your route
+              href="/company" // Replace with your route
               className="nav-link text-2xl text-black"
               onClick={closeMobileNav}
             >
@@ -94,7 +94,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/service2" className="text-md font-normal font-sans hover:text-white">
+                <a href="/mobile" className="text-md font-normal font-sans hover:text-white">
                   Mobile App
                 </a>
               </li>
