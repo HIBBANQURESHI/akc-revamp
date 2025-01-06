@@ -8,7 +8,7 @@ const ContactForm = () => {
         <h2 className="text-4xl lg:text-7xl font-semibold text-yellow-500 mb-6">
           Got an Idea for <br/> your Project?
         </h2>
-        <p className="text-4xl lg:text-4xl text-black leading-relaxed">
+        <p className="text-4xl lg:text-4xl font-light text-black leading-relaxed">
           We’d love to learn more about <br/> you and what we can design <br/> and build
           together.
         </p>

@@ -55,7 +55,7 @@ const Index = () => {
           Logo Design <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
         At AKC, we specialize in crafting striking and memorable logo designs that elevate your brand and make a lasting impression.
         </p>
       </div>

@@ -57,7 +57,7 @@ const Index = () => {
           SMM <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
         At AKC, we provide effective Social Media Marketing (SMM) services to help your business build a strong online presence, engage your audience, and drive growth through targeted strategies and compelling content.        </p>
       </div>
 

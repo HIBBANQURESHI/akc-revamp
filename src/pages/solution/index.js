@@ -62,7 +62,7 @@ const Index = () => {
               <span className="font-bold text-black mt-6">your Ultimate </span><br />
               <span className="font-bold text-black mt-9">HR Solution. </span>
             </h2>
-            <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
+            <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
               A data-driven SaaS HR software focused on empowering people and measuring performance.
             </p>
           </div>

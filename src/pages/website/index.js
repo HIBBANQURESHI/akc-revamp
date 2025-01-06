@@ -54,7 +54,7 @@ const Index = () => {
           Web Development <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
           At AKC, we specialize in creating powerful and effective web
           solutions that help your business stand out online by creating
           user-friendly websites.

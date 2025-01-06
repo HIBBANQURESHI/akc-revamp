@@ -96,7 +96,7 @@ const Index = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
           Our process
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6 leading-relaxed">
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6 leading-relaxed">
           At AKC, we deliver successful products by doing three things: being
           accountable for our projects, making our methods transparent, and
           building strong relationships with our clients.
