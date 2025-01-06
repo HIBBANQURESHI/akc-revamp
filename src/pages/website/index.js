@@ -3,6 +3,9 @@ import Navbar from "@/components/DesktopMenu";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
 import Services from "@/components/website/Services";
+import Swiper from "@/components/website/Swpier";
+import FAQ from "@/components/website/FAQ";
+import Footer from "@/components/Footer";
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -113,14 +116,37 @@ const Index = () => {
         <Services/>
       </div>
 
-      <div className="bg-black"> 
+      <div className="py-36" style={{
+            backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
+            backgroundColor: "#3b82f6", 
+            backgroundSize: "100% 100%",
+          }}> 
         <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> Serving a variety of 
         <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> industry. </span> </h2>
-       <h2 className="text-white text-5xl text-center py-7">YAHAN PAR CARDS SWIPER SERVICES WALE</h2> 
-               
+        <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10"> Cubix provides innovative web solutions for businesses across multiple sectors. </p>
+        <Swiper/>               
       </div>
-      <div className="py-72">
+
+      <div className="py-32">
+        <FAQ/>
       </div>
+
+      <div className="text-center" data-aos="fade-down" data-aos-duration="1000">
+          <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6"> Pull The Trigger! </p>
+          <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6" >
+              Ready to start
+              <span className="py-5 block">your web project?</span>              
+          </h2>
+      </div>
+
+      <div className="py-36"></div>
+        <div style={{
+            backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
+            backgroundColor: "#3b82f6", 
+            backgroundSize: "100% 100%",
+          }}>
+         <Footer/>
+        </div>
     </div>
   );
 };
