@@ -28,9 +28,9 @@ const Footer = () => {
       <h3 className="font-semibold mb-4 text-3xl">Services</h3>
       <ul className="list-none">
         <li className="mb-2"><a href="#" className="hover:text-black transition-colors duration-200 text-xl">Mobile App</a></li>
-        <li className="mb-2"><a href="#" className="hover:text-black transition-colors duration-200 text-xl">Website Development</a></li>
-        <li className="mb-2"><a href="#" className="hover:text-black transition-colors duration-200 text-xl">Logo</a></li>
-        <li className="mb-2"><a href="#" className="hover:text-black transition-colors duration-200 text-xl">SMM</a></li>
+        <li className="mb-2"><a href="/website" className="hover:text-black transition-colors duration-200 text-xl">Website Development</a></li>
+        <li className="mb-2"><a href="/logo" className="hover:text-black transition-colors duration-200 text-xl">Logo</a></li>
+        <li className="mb-2"><a href="/SMM" className="hover:text-black transition-colors duration-200 text-xl">SMM</a></li>
       </ul>
     </div>
 

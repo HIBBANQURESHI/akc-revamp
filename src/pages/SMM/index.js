@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
-import Services from "@/components/website/Services";
-import Swiper from "@/components/website/Swpier";
-import FAQ from "@/components/website/FAQ";
 import Footer from "@/components/Footer";
+import BrandingServices from "@/components/branding/BrandingServices";
+import BrandingSwiper from "@/components/branding/BrandingSwiper";
+import BrandingFaq from "@/components/branding/BrandingFaq";
+import SMMServices from "@/components/SMM/SMMServices";
+import SMMSwiper from "@/components/SMM/SMMSwiper";
+import SMMFaq from "@/components/SMM/SMMFaq";
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -51,80 +54,26 @@ const Index = () => {
       <Navbar />
       <div className="py-52 px-10 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
-          Web Development <br />
+          SMM <br />
           <span className="font-bold">Services.</span>
         </h2>
         <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
-          At AKC, we specialize in creating powerful and effective web
-          solutions that help your business stand out online by creating
-          user-friendly websites.
-        </p>
+        At AKC, we provide effective Social Media Marketing (SMM) services to help your business build a strong online presence, engage your audience, and drive growth through targeted strategies and compelling content.        </p>
       </div>
 
       <div>
         <img
-          src="https://images.ctfassets.net/mi665aivb0at/54L24BJyewKZ5EGg3QH4VN/74c4dbe7ae446b64126e76603d893834/Web_Development_Services_Hero_Banner.webp"
+          src="https://www.anyawebsolution.in/images/smo-smm-services.jpg"
           alt="Web Development Services"
           className="w-full"
         />
       </div>
 
-      <div className="px-10 lg:px-72 py-20">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10 text-black">
-          Why our clients love us.
-        </h2>
-
-        {/* Counter Section */}
-        <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          {/* Projects */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
-              <Counter endValue={700} duration={2000} />
-              <span>+</span>
-            </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
-              Projects
-            </p>
-          </div>
-
-          {/* Developers */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
-              <Counter endValue={250} duration={2000} />
-              <span>+</span>
-            </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
-              Developers
-            </p>
-          </div>
-
-          {/* Experience */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
-              <Counter endValue={15} duration={2000} />
-              <span>+</span>
-            </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
-              Experience
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="px-72">
+      <div className="px-72 py-40">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-          Comprehensive web development services.
+          Comprehensive SMM services.
         </h2>
-        <Services />
+        <SMMServices/>
       </div>
 
       <div
@@ -143,14 +92,13 @@ const Index = () => {
           </span>
         </h2>
         <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10">
-          AKC provides innovative web solutions for businesses across multiple
-          sectors.
+        AKC provides innovative Social Media Marketing solutions that help businesses across various sectors enhance their online presence, engage their audience, and drive growth.
         </p>
-        <Swiper />
+        <SMMSwiper/>
       </div>
 
       <div className="py-32">
-        <FAQ />
+        <SMMFaq/>
       </div>
 
       <div className="text-center" data-aos="fade-down" data-aos-duration="1000">
@@ -158,8 +106,8 @@ const Index = () => {
           Pull The Trigger!
         </p>
         <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
-          Ready to start
-          <span className="py-5 block">your web project?</span>
+          Ready to boost
+          <span className="py-5 block">your social media?</span>
         </h2>
       </div>
 

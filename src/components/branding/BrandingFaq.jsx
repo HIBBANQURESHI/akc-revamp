@@ -1,33 +1,34 @@
 import React, { useState } from "react";
 
 const faqs = [
-  {
-    question: "How much does web development cost?",
-    answer: (
-      <>
-        Costs vary based on complexity. For instance, a simple website might range from $2,000 to $7,000, while custom e-commerce platforms can exceed $10,000.
-      </>
-    ),
-  },
-  {
-    question: "How long does the development process take?",
-    answer: (
-      <>
-       A medium complexity project typically takes between 6-12 months.
-      </>
-    ),
-  },
-  {
-    question: "Why choose AKC?",
-    answer: (
-      <>
-       With over 10 years of experience and 300+ projects, AKC is trusted by leading companies for its reliable web development services.
-      </>
-    ),
-  },
-];
+    {
+      question: "How much does branding services cost?",
+      answer: (
+        <>
+          Costs vary depending on the scope and complexity of the project. A basic logo design might range from $500 to $2,000, while a complete brand identity package can exceed $5,000.
+        </>
+      ),
+    },
+    {
+      question: "How long does the branding process take?",
+      answer: (
+        <>
+          A typical branding project takes 2-6 weeks, depending on the complexity of the services required and the number of revisions.
+        </>
+      ),
+    },
+    {
+      question: "Why choose AKC for branding services?",
+      answer: (
+        <>
+          With over 10 years of experience in creating impactful brand identities and a portfolio of 300+ successful projects, AKC is trusted by top companies to deliver memorable and cohesive branding solutions.
+        </>
+      ),
+    },
+  ];
+  
 
-export default function FAQ() {
+export default function BrandingFaq() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleToggle = (index) => {

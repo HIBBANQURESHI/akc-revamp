@@ -1,33 +1,34 @@
 import React, { useState } from "react";
 
 const faqs = [
-  {
-    question: "How much does web development cost?",
-    answer: (
-      <>
-        Costs vary based on complexity. For instance, a simple website might range from $2,000 to $7,000, while custom e-commerce platforms can exceed $10,000.
-      </>
-    ),
-  },
-  {
-    question: "How long does the development process take?",
-    answer: (
-      <>
-       A medium complexity project typically takes between 6-12 months.
-      </>
-    ),
-  },
-  {
-    question: "Why choose AKC?",
-    answer: (
-      <>
-       With over 10 years of experience and 300+ projects, AKC is trusted by leading companies for its reliable web development services.
-      </>
-    ),
-  },
-];
+    {
+      question: "How much does logo design cost?",
+      answer: (
+        <>
+          Costs depend on the complexity and customization. A basic logo design might range from $500 to $2,000, while highly customized or brand identity-focused designs can exceed $5,000.
+        </>
+      ),
+    },
+    {
+      question: "How long does the logo design process take?",
+      answer: (
+        <>
+          A standard logo design project typically takes between 2-4 weeks, depending on revisions and the complexity of the design.
+        </>
+      ),
+    },
+    {
+      question: "Why choose Cubix for logo design?",
+      answer: (
+        <>
+          With over 10 years of design experience and a portfolio of 300+ successful logos, Cubix is trusted by leading brands for its creative and impactful logo design services.
+        </>
+      ),
+    },
+  ];
+  
 
-export default function FAQ() {
+export default function LogoFaq() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleToggle = (index) => {

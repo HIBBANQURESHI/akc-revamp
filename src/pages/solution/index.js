@@ -2,11 +2,16 @@ import React, { useState, useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
-import FAQ from "@/components/website/FAQ";
 import Footer from "@/components/Footer";
-import LogoServices from "@/components/logo/LogoService";
-import LogoSwiper from "@/components/logo/LogoSwiper";
-import LogoFaq from "@/components/logo/LogoFaq";
+import BrandingServices from "@/components/branding/BrandingServices";
+import BrandingSwiper from "@/components/branding/BrandingSwiper";
+import BrandingFaq from "@/components/branding/BrandingFaq";
+import SMMServices from "@/components/SMM/SMMServices";
+import SMMSwiper from "@/components/SMM/SMMSwiper";
+import SMMFaq from "@/components/SMM/SMMFaq";
+import SolutionSwiper from "@/components/solution/SolutionSwiper";
+import AkcForce from "@/components/solution/AkcForce";
+import SolutionFaq from "@/components/solution/SolutionFaq";
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -50,30 +55,21 @@ const Index = () => {
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-52 px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
-          Logo Design <br />
-          <span className="font-bold">Services.</span>
-        </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
-        At AKC, we specialize in crafting striking and memorable logo designs that elevate your brand and make a lasting impression.
-        </p>
-      </div>
-
-      <div>
-        <img
-          src="https://biziq.com/wp-content/uploads/logo-design.jpg"
-          alt="Web Development Services"
-          className="w-full"
-        />
-      </div>
-
-      <div className="px-72 py-40">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-          Comprehensive logo design services.
-        </h2>
-        <LogoServices/>
-      </div>
+      <div className="py-52 px-10 lg:px-72 flex items-center justify-between">
+          <div className="text-container">
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
+              Happy Force <br />
+              <span className="font-bold text-black mt-6">your Ultimate </span><br />
+              <span className="font-bold text-black mt-9">HR Solution. </span>
+            </h2>
+            <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
+              A data-driven SaaS HR software focused on empowering people and measuring performance.
+            </p>
+          </div>
+          <div className="ml-16 relative ">
+            <img src="https://images.ctfassets.net/mi665aivb0at/sI1J7u6H0FrF7UFKu3inj/c9b1b4ca9f6740055bd079d2429463ce/hppyforcenewHero.webp" alt="HR Solution" className="w-full h-full object-cover" />
+          </div>
+        </div>
 
       <div
         className="py-36"
@@ -85,32 +81,34 @@ const Index = () => {
         }}
       >
         <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
-          Serving a variety of
-          <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left ml-4">
-            industry.
+        feature rich <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left"> innovative </span> HR <br/>
+          <span className="text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left">
+          software development services.
           </span>
         </h2>
-        <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10">
-            AKC provides innovative logo design solutions for businesses across various industries, helping them build a distinctive and memorable brand identity.
-        </p>
-        <LogoSwiper/>
+        <SolutionSwiper/>
       </div>
 
-      <div className="py-32">
-        <LogoFaq/>
+      <div className="py-52 px-10 lg:px-72" data-aos="fade-down" data-aos-duration="1000">
+        <h2 className="px-3 text-black text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> Transform your HR with AKC</h2>
+        <AkcForce/>
+        </div>
+
+      <div className="">
+        <SolutionFaq/>
       </div>
 
-      <div className="text-center" data-aos="fade-down" data-aos-duration="1000">
+      <div className="text-center py-40" data-aos="fade-down" data-aos-duration="1000">
         <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
           Pull The Trigger!
         </p>
         <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
-          Ready to design
-          <span className="py-5 block">your logo?</span>
+          Ready to revolutionize
+          <span className="py-5 block">your HR management?</span>
         </h2>
       </div>
 
-      <div className="py-36"></div>
+      <div></div>
       <div
         style={{
           backgroundImage:

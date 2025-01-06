@@ -1,33 +1,35 @@
 import React, { useState } from "react";
 
 const faqs = [
-  {
-    question: "How much does web development cost?",
-    answer: (
-      <>
-        Costs vary based on complexity. For instance, a simple website might range from $2,000 to $7,000, while custom e-commerce platforms can exceed $10,000.
-      </>
-    ),
-  },
-  {
-    question: "How long does the development process take?",
-    answer: (
-      <>
-       A medium complexity project typically takes between 6-12 months.
-      </>
-    ),
-  },
-  {
-    question: "Why choose AKC?",
-    answer: (
-      <>
-       With over 10 years of experience and 300+ projects, AKC is trusted by leading companies for its reliable web development services.
-      </>
-    ),
-  },
-];
+    {
+      question: "How much do Social Media Marketing services cost?",
+      answer: (
+        <>
+          Costs vary based on the scope and platforms involved. A basic SMM package can start from $1,000 per month, while comprehensive campaigns with ads and strategy development can exceed $5,000 per month.
+        </>
+      ),
+    },
+    {
+      question: "How long does an SMM campaign take?",
+      answer: (
+        <>
+          An SMM campaign typically runs for 3-6 months to ensure effective audience engagement and measurable results.
+        </>
+      ),
+    },
+    {
+      question: "Why choose AKC for Social Media Marketing?",
+      answer: (
+        <>
+          With over 10 years of experience in creating successful social media campaigns and managing top brands, AKC is trusted for delivering measurable growth, high engagement, and strong brand presence online.
+        </>
+      ),
+    },
+  ];
+  
+  
 
-export default function FAQ() {
+export default function SMMFaq() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleToggle = (index) => {

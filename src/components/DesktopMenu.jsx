@@ -82,7 +82,7 @@ const Navbar = () => {
           {/* Services Dropdown */}
           <li className="relative group">
             <a
-              href="/"
+              href="/website"
               className="nav-link text-black font-semibold font-sans"
             >
               Services 
@@ -104,12 +104,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/service4" className="text-md font-normal font-sans hover:text-white">
+                <a href="/branding" className="text-md font-normal font-sans hover:text-white">
                   Branding
                 </a>
               </li>
               <li>
-                <a href="/service5" className="text-md font-normal font-sans hover:text-white">
+                <a href="/SMM" className="text-md font-normal font-sans hover:text-white">
                   SMM
                 </a>
               </li>
@@ -118,7 +118,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href="/about" // Replace with your route
+              href="/solution" // Replace with your route
               className="nav-link text-black font-semibold font-sans"
             >
               Solutions
@@ -134,7 +134,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/careers" // Replace with your route
+              href="/company" // Replace with your route
               className="nav-link text-black font-semibold font-sans"
             >
               Company
