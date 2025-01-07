@@ -83,7 +83,7 @@ const Navbar = () => {
           <li className="relative group">
             <a
               href="/website"
-              className="nav-link text-black font-semibold font-sans"
+              className="nav-link text-orange-300 font-semibold font-sans"
             >
               Services 
             </a>
@@ -119,7 +119,7 @@ const Navbar = () => {
           <li>
             <a
               href="/solution" // Replace with your route
-              className="nav-link text-black font-semibold font-sans"
+              className="nav-link text-orange-300 font-semibold font-sans"
             >
               Solutions
             </a>
@@ -127,7 +127,7 @@ const Navbar = () => {
           <li>
             <a
               href="/services" // Replace with your route
-              className="nav-link text-black font-semibold font-sans"
+              className="nav-link text-orange-300 font-semibold font-sans"
             >
               Work
             </a>
@@ -135,7 +135,7 @@ const Navbar = () => {
           <li>
             <a
               href="/company" // Replace with your route
-              className="nav-link text-black font-semibold font-sans"
+              className="nav-link text-orange-300 font-semibold font-sans"
             >
               Company
             </a>
@@ -143,7 +143,7 @@ const Navbar = () => {
           <li>
             <a
               href="/contact" // Replace with your route
-              className="nav-link text-black font-semibold"
+              className="nav-link text-orange-300 font-semibold"
             >
               Contact
             </a>
