@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
-import AOS from "aos"; // Import AOS
-import "aos/dist/aos.css"; // Import AOS styles
+import { motion } from "framer-motion"; // Import Framer Motion
 import Footer from "@/components/Footer";
 
 // Card Component
-const Card = ({ number, title, description, image, animation }) => (
-  <div
+const Card = ({ number, title, description, animation }) => (
+  <motion.div
     className="flex flex-col lg:flex-row items-start lg:items-center mb-16 space-y-6 lg:space-y-0 lg:space-x-8"
-    data-aos={animation}
-    data-aos-duration="1000"
+    initial={{ opacity: 0, x: animation === "fade-left" ? -100 : 100 }}
+    whileInView={{ opacity: 1, x: 0 }} // Trigger fade effect when in view
+    viewport={{ once: false, amount: 0.1 }} // Trigger when 10% of element is in the view
+    transition={{ duration: 1, ease: "easeOut" }}
   >
     <div className="text-yellow-500 text-5xl font-bold">{number}</div>
     <div className="flex flex-col lg:flex-row items-start lg:items-center space-y-6 lg:space-y-0 lg:space-x-8">
@@ -18,22 +19,10 @@ const Card = ({ number, title, description, image, animation }) => (
         <p className="text-lg text-gray-700 leading-relaxed">{description}</p>
       </div>
     </div>
-  </div>
+  </motion.div>
 );
 
 const Index = () => {
-  useEffect(() => {
-    // Initialize AOS
-    AOS.init({ duration: 1000, once: false });
-
-    // Refresh AOS on scroll
-    const refreshAOS = () => AOS.refresh();
-    window.addEventListener("scroll", refreshAOS);
-
-    // Cleanup event listener on unmount
-    return () => window.removeEventListener("scroll", refreshAOS);
-  }, []);
-
   // Content for cards
   const cardData = [
     {
@@ -117,20 +106,31 @@ const Index = () => {
               number={card.number}
               title={card.title}
               description={card.description}
-              animation={index % 2 === 0 ? "fade-left" : "fade-right"}
+              animation={index % 2 === 0 ? "fade-left" : "fade-left"} // Alternating animations
             />
           ))}
         </div>
       </div>
 
-      <div className="text-center mt-16" data-aos="fade-down" data-aos-duration="1000">
-          <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6"> Pull The Trigger! </p>
-          <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6" >
-              Let's bring your 
-              <span className="py-5 block">vision to life.</span>
-              
-            </h2>
-        </div>
+      <div className="text-center mt-16">
+        <motion.p
+          className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+        >
+          Pull The Trigger!
+        </motion.p>
+        <motion.h2
+          className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          Let's bring your
+          <span className="py-5 block">vision to life.</span>
+        </motion.h2>
+      </div>
 
       {/* Footer Section */}
       <div

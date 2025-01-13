@@ -49,7 +49,7 @@ const Index = () => {
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-52 px-10 lg:px-72">
+      <div className="py-20 px-6 sm:px-10 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
           Web Development <br />
           <span className="font-bold">Services.</span>
@@ -69,58 +69,49 @@ const Index = () => {
         />
       </div>
 
-      <div className="px-10 lg:px-72 py-20">
+      <div className="px-6 sm:px-10 lg:px-72 py-20">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10 text-black">
           Why our clients love us.
         </h2>
 
         {/* Counter Section */}
-        <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
           {/* Projects */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
+            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={700} duration={2000} />
               <span>+</span>
             </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
+            <p className="text-2xl sm:text-3xl font-normal text-black group-hover:underline py-3">
               Projects
             </p>
           </div>
 
           {/* Developers */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
+            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={250} duration={2000} />
               <span>+</span>
             </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
+            <p className="text-2xl sm:text-3xl font-normal text-black group-hover:underline py-3">
               Developers
             </p>
           </div>
 
           {/* Experience */}
-          <div
-            className="text-left p-6 transition-all duration-300 group hover:text-blue-500"
-            data-aos="fade-down"
-          >
-            <h3 className="text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
+            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
               <Counter endValue={15} duration={2000} />
               <span>+</span>
             </h3>
-            <p className="text-3xl font-normal text-black group-hover:underline py-3">
+            <p className="text-2xl sm:text-3xl font-normal text-black group-hover:underline py-3">
               Experience
             </p>
           </div>
         </div>
       </div>
 
-      <div className="px-72">
+      <div className="px-6 sm:px-10 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
           Comprehensive web development services.
         </h2>
@@ -136,13 +127,13 @@ const Index = () => {
           backgroundSize: "100% 100%",
         }}
       >
-        <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
+        <h2 className="px-6 sm:px-10 lg:px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
           Serving a variety of 
           <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left ml-4">
-             industry.
+             industries.
           </span>
         </h2>
-        <p className="px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10">
+        <p className="px-6 sm:px-10 lg:px-72 text-white text-xl sm:text-sm lg:text-xl font-normal text-left mb-10">
           AKC provides innovative web solutions for businesses across multiple
           sectors.
         </p>
@@ -153,11 +144,11 @@ const Index = () => {
         <FAQ />
       </div>
 
-      <div className="text-center" data-aos="fade-down" data-aos-duration="1000">
-        <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
+      <div className="text-center">
+        <p className="text-xl sm:text-sm lg:text-xl font-normal font-sans mb-6 text-black">
           Pull The Trigger!
         </p>
-        <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold font-sans mb-6 text-black">
           Ready to start
           <span className="py-5 block">your web project?</span>
         </h2>

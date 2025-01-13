@@ -5,22 +5,22 @@ const ContactForm = () => {
     <div className="flex flex-col lg:flex-row items-start justify-between px-6 sm:px-12 lg:px-24 py-16 bg-white">
       {/* Left Section */}
       <div className="lg:w-1/2 mb-12 lg:mb-0">
-        <h2 className="text-4xl lg:text-7xl font-semibold text-yellow-500 mb-6">
-          Got an Idea for <br/> your Project?
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-semibold text-yellow-500 mb-6">
+          Got an Idea for <br /> your Project?
         </h2>
-        <p className="text-4xl lg:text-4xl font-light text-black leading-relaxed">
-          We’d love to learn more about <br/> you and what we can design <br/> and build
+        <p className="text-2xl sm:text-3xl lg:text-4xl font-light text-black leading-relaxed">
+          We’d love to learn more about <br /> you and what we can design <br /> and build
           together.
         </p>
 
         <div className="mt-10 space-y-4">
           <div className="flex items-center">
-            <a href="mailto:info@cubix.co" className="text-4xl lg:text-2xl text-black leading-relaxed">
+            <a href="mailto:info@cubix.co" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
               info@akc.com
             </a>
           </div>
           <div className="flex items-center">
-            <a href="tel:8669782220" className="text-4xl lg:text-2xl text-black leading-relaxed">
+            <a href="tel:8669782220" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
               866-978-2220
             </a>
           </div>
@@ -28,7 +28,7 @@ const ContactForm = () => {
       </div>
 
       {/* Right Section */}
-      <div className="lg:w-1/2 mr-32">
+      <div className="lg:w-1/2">
         <form className="w-full space-y-6">
           {/* Name Field */}
           <div>
@@ -45,7 +45,7 @@ const ContactForm = () => {
           </div>
 
           {/* Email and Phone Fields */}
-          <div className="flex space-x-4">
+          <div className="flex flex-col sm:flex-row sm:space-x-4">
             <div className="flex-1">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email*
@@ -58,7 +58,7 @@ const ContactForm = () => {
                 className="mt-2 w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:outline-none"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 mt-6 sm:mt-0">
               <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
                 Phone*
               </label>

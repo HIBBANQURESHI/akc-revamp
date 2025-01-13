@@ -1,11 +1,15 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 const Hero = () => {
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' });
+  const isVerySmallScreen = useMediaQuery({ query: '(max-width: 425px)' });
+
   return (
-    <section className="relative w-full h-screen bg-black">
+    <section className="relative w-full min-h-screen bg-black">
       {/* Background video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover opacity-50 bg-black"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
         autoPlay
         loop
         muted
@@ -16,23 +20,39 @@ const Hero = () => {
         />
       </video>
 
-      {/* Overlay to darken the video */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col justify-center items-center text-center text-white px-4 py-32 md:py-64">
-        <h1 className="text-5xl sm:text-5xl lg:text-8xl font-bold mb-4 text-left py-22 mr-64">
-          We are a{' '}
-          <span className="text-yellow-500 text-left text-5xl sm:text-5xl lg:text-8xl">Software</span>{' '}
-          <br/>
-          <span className="text-yellow-500 text-left text-5xl sm:text-5xl lg:text-8xl">Development</span>{' '}
-          <br/>
-          Company.
-        </h1>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light leading-relaxed text-left mr-72 text-gray-100 py-16">
-          We are your trusted development partner with just one goal<br/> in focus
-          to build products that generate a lasting<br/> profitable impact.
-        </p>
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
+        <div className="text-left text-white space-y-6 max-w-3xl">
+          <h1
+            className={`font-bold ${
+              isVerySmallScreen
+                ? 'text-3xl'
+                : isSmallScreen
+                ? 'text-4xl'
+                : 'text-6xl'
+            }`}
+          >
+            We are a{' '}
+            <span className="text-yellow-500">Software</span> <br />
+            <span className="text-yellow-500">Development</span> <br />
+            Company.
+          </h1>
+          <p
+            className={`leading-relaxed ${
+              isVerySmallScreen
+                ? 'text-sm max-w-xs'
+                : isSmallScreen
+                ? 'text-base max-w-md'
+                : 'text-xl max-w-lg'
+            }`}
+          >
+            We are your trusted development partner with just one goal in focus:
+            to build products that generate a lasting, profitable impact.
+          </p>
+        </div>
       </div>
     </section>
   );

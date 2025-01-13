@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
-import AOS from "aos"; // Import AOS
-import "aos/dist/aos.css"; // Import AOS styles
 import Footer from "@/components/Footer";
 import BrandingServices from "@/components/branding/BrandingServices";
 import BrandingSwiper from "@/components/branding/BrandingSwiper";
@@ -38,83 +36,79 @@ const Counter = ({ endValue, duration }) => {
 };
 
 const Index = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: false }); // Initialize AOS with settings
-    window.addEventListener('scroll', () => {
-      AOS.refresh(); // Refresh AOS on scroll
-    });
-
-    // Clean up the event listener when the component is unmounted
-    return () => {
-      window.removeEventListener('scroll', () => {
-        AOS.refresh();
-      });
-    };
-  }, []);
-
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-52 px-10 lg:px-72 flex items-center justify-between">
-          <div className="text-container">
-            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
-              Happy Force <br />
-              <span className="font-bold text-black mt-6">your Ultimate </span><br />
-              <span className="font-bold text-black mt-9">HR Solution. </span>
-            </h2>
-            <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
-              A data-driven SaaS HR software focused on empowering people and measuring performance.
-            </p>
-          </div>
-          <div className="ml-16 relative ">
-            <img src="https://images.ctfassets.net/mi665aivb0at/sI1J7u6H0FrF7UFKu3inj/c9b1b4ca9f6740055bd079d2429463ce/hppyforcenewHero.webp" alt="HR Solution" className="w-full h-full object-cover" />
-          </div>
-        </div>
 
+      {/* Hero Section */}
+      <div className="py-24 px-5 md:py-52 md:px-10 lg:px-72 flex flex-col md:flex-row items-center justify-between">
+        <div className="text-container text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-yellow-500">
+            Happy Force <br />
+            <span className="font-bold text-black">your Ultimate </span>
+            <br />
+            <span className="font-bold text-black">HR Solution.</span>
+          </h2>
+          <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-light mb-6">
+            A data-driven SaaS HR software focused on empowering people and measuring
+            performance.
+          </p>
+        </div>
+        <div className="mt-10 md:mt-0 md:ml-16">
+          <img
+            src="https://images.ctfassets.net/mi665aivb0at/sI1J7u6H0FrF7UFKu3inj/c9b1b4ca9f6740055bd079d2429463ce/hppyforcenewHero.webp"
+            alt="HR Solution"
+            className="w-full max-w-sm md:max-w-md lg:max-w-lg object-cover"
+          />
+        </div>
+      </div>
+
+      {/* Feature Section */}
       <div
-        className="py-36"
+        className="py-36 text-center"
         style={{
           backgroundImage:
             "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
           backgroundColor: "#3b82f6",
-          backgroundSize: "100% 100%",
         }}
       >
-        <h2 className="px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
-        feature rich <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left"> innovative </span> HR <br/>
-          <span className="text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left">
+        <h2 className="px-5 md:px-20 lg:px-72 text-white text-2xl sm:text-4xl lg:text-6xl font-semibold mb-10">
+          Feature-rich <span className="text-yellow-500">innovative</span> HR <br />
           software development services.
-          </span>
         </h2>
-        <SolutionSwiper/>
+        <SolutionSwiper />
       </div>
 
-      <div className="py-52 px-10 lg:px-72" data-aos="fade-down" data-aos-duration="1000">
-        <h2 className="px-3 text-black text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10"> Transform your HR with AKC</h2>
-        <AkcForce/>
-        </div>
-
-      <div className="">
-        <SolutionFaq/>
+      {/* Transform Section */}
+      <div className="py-24 px-5 md:py-52 md:px-10 lg:px-72">
+        <h2 className="text-black text-2xl sm:text-4xl lg:text-6xl font-semibold mb-10 text-center md:text-left">
+          Transform your HR with AKC
+        </h2>
+        <AkcForce />
       </div>
 
-      <div className="text-center py-40" data-aos="fade-down" data-aos-duration="1000">
-        <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
+      {/* FAQ Section */}
+      <div>
+        <SolutionFaq />
+      </div>
+
+      {/* Call to Action Section */}
+      <div className="text-center py-20 md:py-40">
+        <p className="text-xl text-black sm:text-lg lg:text-xl font-normal mb-6">
           Pull The Trigger!
         </p>
-        <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
+        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-6">
           Ready to revolutionize
-          <span className="py-5 block">your HR management?</span>
+          <span className="block">your HR management?</span>
         </h2>
       </div>
 
-      <div></div>
+      {/* Footer Section */}
       <div
         style={{
           backgroundImage:
             "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
           backgroundColor: "#3b82f6",
-          backgroundSize: "100% 100%",
         }}
       >
         <Footer />

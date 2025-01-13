@@ -56,7 +56,7 @@ const Development = () => {
       
       <Content ref={containerRef}>
         <div className="px-7 text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-white">
-          Our product <span className="text-yellow-500">development process</span> 
+          Our product <span className="text-lime-400">development process</span> 
         </div>
         <ProgressBarContainer>
           <ProgressBarBg />
@@ -171,7 +171,7 @@ const Step = styled.div`
   h2,
   h3 {
     margin: 0;
-    color: #ecc94b;
+    color: #a3e635;
   }
 
   h2 {

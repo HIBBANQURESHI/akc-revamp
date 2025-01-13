@@ -25,12 +25,22 @@ const MobileService = () => {
   ];
 
   return (
-    <div className="py-20">
+    <div className="py-12 px-6 sm:px-10 lg:px-20">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-black mb-10">
+        Our Mobile Services
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="text-left">
-            <h3 className="text-2xl font-bold text-black mb-2">{service.title}</h3>
-            <p className="text-gray-700 text-lg">{service.description}</p>
+          <div
+            key={index}
+            className="text-left p-4 border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+          >
+            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+              {service.title}
+            </h3>
+            <p className="text-gray-700 text-base sm:text-lg lg:text-xl">
+              {service.description}
+            </p>
           </div>
         ))}
       </div>
