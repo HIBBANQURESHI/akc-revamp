@@ -43,8 +43,8 @@ const Industries = () => {
 
   return (
     <div className='max-w-7xl mx-auto px-6 py-48'>
-      <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-yellow-500">Industries we serve.</h2>
-      <p className="text-xl sm:text-2xl lg:text-2xl font-light mb-12 max-w-3xl">
+      <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">Industries we serve.</h2>
+      <p className="text-xl sm:text-2xl lg:text-2xl font-normal mb-12 max-w-3xl">
         With a wide range of services and proven experience across major industries, we understand your challenges and deliver tailored solutions that overcome them and drive meaningful impact.
       </p>
       
@@ -52,7 +52,7 @@ const Industries = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="border rounded-lg p-6 hover:border-4 hover:border-blue-500 transition-all duration-300 min-h-[200px]"
+            className="border rounded-lg p-6 hover:border-4 hover:border-sky-300 transition-all duration-300 min-h-[200px]"
           >
             <h3 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4">{card.title}</h3>
             <p className="text-lg sm:text-xl md:text-2xl font-light mb-4">{card.description}</p>

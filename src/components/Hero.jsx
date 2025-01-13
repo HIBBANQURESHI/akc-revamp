@@ -36,8 +36,8 @@ const Hero = () => {
             }`}
           >
             We are a{' '}
-            <span className="text-yellow-500">Software</span> <br />
-            <span className="text-yellow-500">Development</span> <br />
+            <span className="text-sky-300">Software</span> <br />
+            <span className="text-sky-300">Development</span> <br />
             Company.
           </h1>
           <p

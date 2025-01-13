@@ -34,11 +34,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-20 xl:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-left mb-6 text-yellow-500">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-left mb-6 text-sky-300">
           Branding <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl xl:text-4xl font-light text-left mb-6">
+        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl xl:text-4xl font-normal text-left mb-6">
           At AKC, we specialize in crafting powerful and effective branding solutions that help your business stand out and resonate with your audience through memorable logos, cohesive brand identities, and impactful design strategies.
         </p>
       </div>
@@ -61,15 +61,15 @@ const Index = () => {
       <div
         className="py-20 sm:py-28 lg:py-36"
         style={{
-          backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >
         <div className="px-6 sm:px-10 lg:px-20 xl:px-72">
           <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6">
             Serving a variety of
-            <span className="text-yellow-500 ml-2">industries.</span>
+            <span className="text-sky-300 ml-2">industries.</span>
           </h2>
           <p className="text-white text-lg sm:text-xl lg:text-2xl mb-10">
             AKC provides innovative branding solutions for businesses across multiple sectors.
@@ -94,8 +94,8 @@ const Index = () => {
 
       <div
         style={{
-          backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

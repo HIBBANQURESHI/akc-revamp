@@ -38,27 +38,27 @@ const Navbar = () => {
             {isServicesOpen && (
               <ul className="mt-2 space-y-4">
                 <li>
-                  <a href="/website" className="text-sm hover:text-gray-300" onClick={closeMobileNav}>
+                  <a href="/website" className="text-sm text-sky-300 hover:text-sky-300" onClick={closeMobileNav}>
                     Web Development
                   </a>
                 </li>
                 <li>
-                  <a href="/mobile" className="text-sm hover:text-gray-300" onClick={closeMobileNav}>
+                  <a href="/mobile" className="text-sm text-sky-300 hover:text-sky-300" onClick={closeMobileNav}>
                     Mobile App
                   </a>
                 </li>
                 <li>
-                  <a href="/logo" className="text-sm hover:text-gray-300" onClick={closeMobileNav}>
+                  <a href="/logo" className="text-sm text-sky-300 hover:text-sky-300" onClick={closeMobileNav}>
                     Logo
                   </a>
                 </li>
                 <li>
-                  <a href="/branding" className="text-sm hover:text-gray-300" onClick={closeMobileNav}>
+                  <a href="/branding" className="text-sm text-sky-300 hover:text-sky-300" onClick={closeMobileNav}>
                     Branding
                   </a>
                 </li>
                 <li>
-                  <a href="/SMM" className="text-sm hover:text-gray-300" onClick={closeMobileNav}>
+                  <a href="/SMM" className="text-sm text-sky-300 hover:text-sky-300" onClick={closeMobileNav}>
                     SMM
                   </a>
                 </li>
@@ -82,7 +82,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar */}
-      <div className="fixed top-0 left-0 w-full h-16 bg-black/60 text-white flex items-center justify-between px-5 z-50 backdrop-blur-md">
+      <div className="fixed top-0 left-0 w-full h-16 bg-black/30 text-white flex items-center justify-between px-5 z-50 backdrop-blur-md">
         <div className="flex items-center">
           <a href="/">
             <img src="assets/logo.png" className="w-12 h-12" alt="Logo" />
@@ -95,7 +95,7 @@ const Navbar = () => {
           <li className="relative group">
             <a
               href="/website"
-              className="nav-link text-white font-medium hover:text-gray-300"
+              className="nav-link text-white font-medium hover:text-sky-300"
             >
               Services
             </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
           <li>
             <a
               href="/solution"
-              className="nav-link text-white font-medium hover:text-gray-300"
+              className="nav-link text-white font-medium hover:text-sky-300"
             >
               Solutions
             </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
           <li>
             <a
               href="/work"
-              className="nav-link text-white font-medium hover:text-gray-300"
+              className="nav-link text-white font-medium hover:text-sky-300"
             >
               Work
             </a>
@@ -136,7 +136,7 @@ const Navbar = () => {
           <li>
             <a
               href="/company"
-              className="nav-link text-white font-medium hover:text-gray-300"
+              className="nav-link text-white font-medium hover:text-sky-300"
             >
               Company
             </a>
@@ -144,7 +144,7 @@ const Navbar = () => {
           <li>
             <a
               href="/contact"
-              className="nav-link text-white font-medium hover:text-gray-300"
+              className="nav-link text-white font-medium hover:text-sky-300"
             >
               Contact
             </a>

@@ -5,15 +5,15 @@ function Testimonial() {
     <div className="py-12 px-4 space-y-12 sm:px-8 md:px-12">
       {/* 1st Testimonial */}
       <div
-        className="mx-auto p-6 border-2 border-gray-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
+        className="mx-auto p-6 border-2 border-sky-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
         style={{
           height: "333.27px",
           width: "100%",
           backgroundColor: "transparent",
         }}
       >
-        <p className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">Jackie Dallas, Director</p>
-        <p className="text-sm sm:text-xl text-gray-900 mb-4">
+        <p className="text-lg sm:text-xl font-semibold text-white mb-4">Jackie Dallas, Director</p>
+        <p className="text-sm sm:text-xl text-white mb-4">
           "This company provided exceptional service. The team went above and beyond to meet our needs and deliver excellent results!"
         </p>
         {/* Image and Stars */}
@@ -35,15 +35,15 @@ function Testimonial() {
 
       {/* 2nd Testimonial */}
       <div
-        className="mx-auto p-6 border-2 border-gray-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
+        className="mx-auto p-6 border-2 border-sky-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
         style={{
           height: "333.27px",
           width: "100%",
           backgroundColor: "transparent",
         }}
       >
-        <p className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">Hamed Al Zadjal, Digital Manager</p>
-        <p className="text-sm sm:text-xl text-gray-900 mb-4">
+        <p className="text-lg sm:text-xl font-semibold text-white mb-4">Hamed Al Zadjal, Digital Manager</p>
+        <p className="text-sm sm:text-xl text-white mb-4">
           "This company provided exceptional service. The team went above and beyond to meet our needs and deliver excellent results!"
         </p>
         {/* Image and Stars */}
@@ -65,15 +65,15 @@ function Testimonial() {
 
       {/* 3rd Testimonial */}
       <div
-        className="mx-auto p-6 border-2 border-gray-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
+        className="mx-auto p-6 border-2 border-sky-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
         style={{
           height: "333.27px",
           width: "100%",
           backgroundColor: "transparent",
         }}
       >
-        <p className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">Geoffrey Anderson, Co-Founder and CEO</p>
-        <p className="text-sm sm:text-xl text-gray-900 mb-4">
+        <p className="text-lg sm:text-xl font-semibold text-white mb-4">Geoffrey Anderson, Co-Founder and CEO</p>
+        <p className="text-sm sm:text-xl text-white mb-4">
           "This company provided exceptional service. The team went above and beyond to meet our needs and deliver excellent results!"
         </p>
         {/* Image and Stars */}
@@ -95,15 +95,15 @@ function Testimonial() {
 
       {/* 4th Testimonial */}
       <div
-        className="mx-auto p-6 border-2 border-gray-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
+        className="mx-auto p-6 border-2 border-sky-300 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl w-full sm:w-[554px] lg:w-[600px] relative"
         style={{
           height: "333.27px",
           width: "100%",
           backgroundColor: "transparent",
         }}
       >
-        <p className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">Cleitn Kimberly A. Dalius, Founder</p>
-        <p className="text-sm sm:text-xl text-gray-900 mb-4">
+        <p className="text-lg sm:text-xl font-semibold text-white mb-4">Cleitn Kimberly A. Dalius, Founder</p>
+        <p className="text-sm sm:text-xl text-white mb-4">
           "This company provided exceptional service. The team went above and beyond to meet our needs and deliver excellent results!"
         </p>
         {/* Image and Stars */}

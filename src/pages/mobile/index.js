@@ -52,12 +52,12 @@ const Index = () => {
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-28">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
+      <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
           App Development <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-light text-left mb-6">
+        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
           Build reliable and easy-to-use Android apps with our expert developers, ensuring smooth performance and a seamless experience for all users.
         </p>
       </div>
@@ -71,25 +71,22 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-12 lg:px-28 py-20 sm:py-32">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-          Comprehensive App development services.
-        </h2>
         <MobileService />
       </div>
 
       <div
         className="py-24 sm:py-36 text-center relative"
         style={{
-          backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-black">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
           Our clients simply love{" "}
-          <span className="text-yellow-500">what we do.</span>
+          <span className="text-sky-300">what we do.</span>
         </h2>
-        <p className="text-black text-lg sm:text-xl lg:text-2xl py-8">
+        <p className="text-white text-lg sm:text-xl lg:text-2xl py-8">
           Proud to serve as the innovation partner for industry leaders who have experienced our
           expertise and excellence firsthand.
         </p>
@@ -114,8 +111,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

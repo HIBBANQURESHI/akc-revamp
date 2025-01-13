@@ -19,11 +19,11 @@ export default function BrandingSwiper() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between bg-transparent border border-gray-200 shadow-lg rounded-3xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-3xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="p-6 flex flex-col justify-between">
-              <h6 className="text-2xl sm:text-3xl text-gray-800 font-semibold mb-2">{card.heading}</h6>
-              <p className="text-base sm:text-lg text-gray-600">{card.paragraph}</p>
+              <h6 className="text-2xl sm:text-3xl text-white font-semibold mb-2">{card.heading}</h6>
+              <p className="text-base sm:text-lg text-white">{card.paragraph}</p>
             </div>
           </div>
         ))}

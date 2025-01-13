@@ -35,7 +35,7 @@ export default function Swiper() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between bg-transparent border border-gray-200 shadow-lg rounded-3xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-3xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="p-6 flex flex-col justify-between">
               <h6 className="text-xl sm:text-2xl lg:text-3xl text-white font-semibold mb-2">{card.heading}</h6>

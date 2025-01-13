@@ -43,11 +43,11 @@ const Index = () => {
       {/* Hero Section */}
       <div className="py-24 px-5 md:py-52 md:px-10 lg:px-72 flex flex-col md:flex-row items-center justify-between">
         <div className="text-container text-center md:text-left">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-yellow-500">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-sky-300">
             Happy Force <br />
-            <span className="font-bold text-black">your Ultimate </span>
+            <span className="font-semibold text-black">your Ultimate </span>
             <br />
-            <span className="font-bold text-black">HR Solution.</span>
+            <span className="font-semibold text-black">HR Solution.</span>
           </h2>
           <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-light mb-6">
             A data-driven SaaS HR software focused on empowering people and measuring
@@ -68,12 +68,12 @@ const Index = () => {
         className="py-36 text-center"
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
         }}
       >
         <h2 className="px-5 md:px-20 lg:px-72 text-white text-2xl sm:text-4xl lg:text-6xl font-semibold mb-10">
-          Feature-rich <span className="text-yellow-500">innovative</span> HR <br />
+          Feature-rich <span className="text-sky-300">innovative</span> HR <br />
           software development services.
         </h2>
         <SolutionSwiper />
@@ -107,8 +107,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
         }}
       >
         <Footer />

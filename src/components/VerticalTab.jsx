@@ -12,7 +12,7 @@ export default function VerticalTab() {
             ${activeTab === 1
               ? "bg-blue-500 text-black"
               : "bg-transparent text-black"} 
-            transition-all duration-300 ease-in-out hover:bg-blue-400 hover:text-white`}
+            transition-all duration-300 ease-in-out hover:bg-sky-300 hover:text-white`}
             onClick={() => setActiveTab(1)}
           >
             Web Platforms
@@ -53,28 +53,28 @@ export default function VerticalTab() {
       <div className="float-right w-full md:w-4/5 pt-5">
         {activeTab === 1 && (
           <div>
-            <p className="text-black px-4 md:px-40 text-2xl font-semibold font-sans">
+            <p className="text-black px-4 md:px-40 text-2xl font-normal font-sans">
               Web Platform Content
             </p>
           </div>
         )}
         {activeTab === 2 && (
           <div>
-            <p className="text-black px-4 md:px-40 text-2xl font-semibold font-sans">
+            <p className="text-black px-4 md:px-40 text-2xl font-normal font-sans">
               Mobile App Content
             </p>
           </div>
         )}
         {activeTab === 3 && (
           <div>
-            <p className="text-black px-4 md:px-40 text-2xl font-semibold font-sans">
+            <p className="text-black px-4 md:px-40 text-2xl font-normal font-sans">
               SMM Content
             </p>
           </div>
         )}
         {activeTab === 4 && (
           <div>
-            <p className="text-black px-4 md:px-40 text-2xl font-semibold font-sans">
+            <p className="text-black px-4 md:px-40 text-2xl font-normal font-sans">
               Logo Content
             </p>
           </div>

@@ -19,7 +19,7 @@ export default function LogoSwiper() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between bg-gray-900 border border-gray-700 shadow-lg rounded-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="p-6 flex flex-col justify-between">
               <h6 className="text-2xl lg:text-3xl text-white font-bold mb-4">{card.heading}</h6>

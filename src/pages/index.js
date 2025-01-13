@@ -29,10 +29,10 @@ export default function App() {
         <Development />
       </div>
       <div>
-        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-left mt-9 text-yellow-500 max-w-7xl mx-auto px-6 font-sans">
+        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mt-9 text-sky-300 max-w-7xl mx-auto px-6 font-sans">
           Technologies we used
         </h1>
-        <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-light mt-12 max-w-7xl mx-auto px-6 font-sans">
+        <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mt-12 max-w-7xl mx-auto px-6 font-sans">
           Hire from our pool of 350+ specialized experts in web, mobile, and software
           <br /> engineering, specializing in the latest technologies and frameworks, ready to
           <br /> scale your development teams effortlessly.
@@ -43,15 +43,15 @@ export default function App() {
         <div
           className="py-36 mt-72 text-center relative"
           style={{
-            backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-            backgroundColor: "#3b82f6",
+            backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+            backgroundColor: "#000",
             backgroundSize: "100% 100%",
           }}
         >
-          <h2 className="mt-0 text-6xl font-semibold font-sans text-black">
-            Our clients simply love <span className="text-yellow-500">what we do.</span>
+          <h2 className="mt-0 text-6xl font-semibold font-sans text-white">
+            Our clients simply love <span className="text-sky-300">what we do.</span>
           </h2>
-          <p className="text-black text-2xl py-8 font-sans font-normal">
+          <p className="text-white text-2xl py-8 font-sans font-normal">
             Proud to serve as the innovation partner for industry leaders who have experienced our
             <br /> expertise and excellence firsthand.
           </p>
@@ -73,8 +73,8 @@ export default function App() {
       <div className="py-36"></div>
       <div
         style={{
-          backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

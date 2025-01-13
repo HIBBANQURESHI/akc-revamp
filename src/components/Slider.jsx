@@ -41,7 +41,7 @@ export default function Slider() {
         >
           {Array.from({ length: 14 }).map((_, index) => (
             <div
-              className="slide h-[100px] w-[250px] flex items-center justify-center text-black font-normal text-4xl"
+              className="slide h-[100px] w-[250px] flex items-center justify-center text-black font-semibold text-4xl"
               key={index}
             >
               {slides[index % slides.length]}

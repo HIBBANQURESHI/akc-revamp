@@ -33,12 +33,12 @@ const Index = () => {
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-16 px-4 sm:py-20 lg:py-32 sm:px-10 lg:px-24">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-left mb-6 text-yellow-500">
+      <div className="py-16 px-4 sm:py-20 lg:py-32 sm:px-10 lg:px-72">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-left mb-6 text-sky-300">
           SMM <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-light text-left mb-6">
+        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
           At AKC, we provide effective Social Media Marketing (SMM) services to help your business build a strong online presence, engage your audience, and drive growth through targeted strategies and compelling content.
         </p>
       </div>
@@ -51,7 +51,7 @@ const Index = () => {
         />
       </div>
 
-      <div className="px-4 sm:px-10 lg:px-24 py-20 lg:py-32">
+      <div className="px-4 sm:px-10 lg:px-72 py-20 lg:py-32">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-black">
           Comprehensive SMM services.
         </h2>
@@ -62,15 +62,15 @@ const Index = () => {
         className="py-20 lg:py-32"
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >
-        <div className="px-4 sm:px-10 lg:px-24">
+        <div className="px-4 sm:px-10 lg:px-36">
           <h2 className="text-white text-2xl sm:text-3xl lg:text-5xl font-semibold mb-6">
             Serving a variety of 
-            <span className="text-yellow-500"> industries.</span>
+            <span className="text-sky-300"> industries.</span>
           </h2>
           <p className="text-white text-lg sm:text-xl font-normal mb-10">
             AKC provides innovative Social Media Marketing solutions that help businesses across various sectors enhance their online presence, engage their audience, and drive growth.
@@ -97,8 +97,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

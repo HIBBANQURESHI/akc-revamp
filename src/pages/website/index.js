@@ -50,11 +50,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
           Web Development <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6">
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6">
           At AKC, we specialize in creating powerful and effective web
           solutions that help your business stand out online by creating
           user-friendly websites.
@@ -70,15 +70,15 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-10 lg:px-72 py-20">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10 text-black">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10 text-sky-300">
           Why our clients love us.
         </h2>
 
         {/* Counter Section */}
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
           {/* Projects */}
-          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
-            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-sky-300">
+            <h3 className="text-5xl sm:text-7xl font-normal text-black group-hover:text-sky-300">
               <Counter endValue={700} duration={2000} />
               <span>+</span>
             </h3>
@@ -88,8 +88,8 @@ const Index = () => {
           </div>
 
           {/* Developers */}
-          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
-            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-sky-300">
+            <h3 className="text-5xl sm:text-7xl font-normal text-black group-hover:text-sky-300">
               <Counter endValue={250} duration={2000} />
               <span>+</span>
             </h3>
@@ -99,8 +99,8 @@ const Index = () => {
           </div>
 
           {/* Experience */}
-          <div className="text-left p-6 transition-all duration-300 group hover:text-blue-500">
-            <h3 className="text-5xl sm:text-7xl font-semibold text-yellow-500 group-hover:text-blue-500">
+          <div className="text-left p-6 transition-all duration-300 group hover:text-sky-300">
+            <h3 className="text-5xl sm:text-7xl font-normal text-black group-hover:text-sky-300">
               <Counter endValue={15} duration={2000} />
               <span>+</span>
             </h3>
@@ -122,14 +122,14 @@ const Index = () => {
         className="py-36"
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >
         <h2 className="px-6 sm:px-10 lg:px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
           Serving a variety of 
-          <span className="text-yellow-500 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left ml-4">
+          <span className="text-sky-300 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left ml-4">
              industries.
           </span>
         </h2>
@@ -158,8 +158,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

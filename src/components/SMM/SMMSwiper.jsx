@@ -19,7 +19,7 @@ export default function SMMSwiper() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between bg-gradient-to-r from-blue-600 to-blue-800 border border-gray-200 shadow-lg rounded-3xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-3xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="p-6 flex flex-col justify-between">
               <h6 className="text-2xl sm:text-3xl font-semibold text-white mb-3">

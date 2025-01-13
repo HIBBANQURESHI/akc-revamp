@@ -27,8 +27,8 @@ const index = () => {
       <div className="py-36"></div>
       <motion.div
         style={{
-          backgroundImage: "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
         initial={{ opacity: 0 }}

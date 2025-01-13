@@ -34,12 +34,12 @@ const Index = () => {
   return (
     <div className="bg-slate-50">
       <Navbar />
-      <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-28">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
+      <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
           Logo Design <br />
           <span className="font-bold">Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-light text-left mb-6">
+        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
           At AKC, we specialize in crafting striking and memorable logo designs that elevate your brand and make a lasting impression.
         </p>
       </div>
@@ -52,7 +52,7 @@ const Index = () => {
         />
       </div>
 
-      <div className="px-6 sm:px-12 lg:px-28 py-20 sm:py-32">
+      <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
           Comprehensive logo design services.
         </h2>
@@ -63,14 +63,14 @@ const Index = () => {
         className="py-24 sm:py-36 text-center relative"
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-white mb-6">
           Serving a variety of
-          <span className="text-yellow-500 ml-4">industry.</span>
+          <span className="text-sky-300 ml-4">industry.</span>
         </h2>
         <p className="text-white text-lg sm:text-xl lg:text-2xl py-8">
           AKC provides innovative logo design solutions for businesses across various industries, helping them build a distinctive and memorable brand identity.
@@ -96,8 +96,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
       >

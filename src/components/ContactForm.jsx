@@ -5,10 +5,10 @@ const ContactForm = () => {
     <div className="flex flex-col lg:flex-row items-start justify-between px-6 sm:px-12 lg:px-24 py-16 bg-white">
       {/* Left Section */}
       <div className="lg:w-1/2 mb-12 lg:mb-0">
-        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-semibold text-yellow-500 mb-6">
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-semibold text-sky-300 mb-6">
           Got an Idea for <br /> your Project?
         </h2>
-        <p className="text-2xl sm:text-3xl lg:text-4xl font-light text-black leading-relaxed">
+        <p className="text-2xl sm:text-3xl lg:text-4xl font-normal text-black leading-relaxed">
           We’d love to learn more about <br /> you and what we can design <br /> and build
           together.
         </p>

@@ -12,7 +12,7 @@ const Card = ({ number, title, description, animation }) => (
     viewport={{ once: false, amount: 0.1 }} // Trigger when 10% of element is in the view
     transition={{ duration: 1, ease: "easeOut" }}
   >
-    <div className="text-yellow-500 text-5xl font-bold">{number}</div>
+    <div className="text-sky-300 text-5xl font-bold">{number}</div>
     <div className="flex flex-col lg:flex-row items-start lg:items-center space-y-6 lg:space-y-0 lg:space-x-8">
       <div className="w-full lg:w-1/2">
         <h3 className="text-2xl font-semibold mb-4 text-black">{title}</h3>
@@ -82,11 +82,11 @@ const Index = () => {
 
       {/* Intro Section */}
       <div className="py-20 px-6 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-yellow-500">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
           Our process
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-light text-left mb-6 leading-relaxed">
-          At AKC, we deliver successful products by doing three things: being
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6 leading-relaxed">
+          At AKC, we deliver successful products by doing three things being
           accountable for our projects, making our methods transparent, and
           building strong relationships with our clients.
         </p>
@@ -136,8 +136,8 @@ const Index = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle at left center, #fbbf24 5%, transparent 50%)",
-          backgroundColor: "#3b82f6",
+            "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
+          backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
         className="py-12"
