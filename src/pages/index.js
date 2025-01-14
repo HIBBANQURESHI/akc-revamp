@@ -49,11 +49,10 @@ export default function App() {
           }}
         >
           <h2 className="mt-0 text-6xl font-semibold font-sans text-white">
-            Our clients simply love <span className="text-sky-300">what we do.</span>
+           Still in Doubt? Hear It from Our  <span className="text-sky-300">Happy Clients</span>
           </h2>
-          <p className="text-white text-2xl py-8 font-sans font-normal">
-            Proud to serve as the innovation partner for industry leaders who have experienced our
-            <br /> expertise and excellence firsthand.
+          <p className="text-white text-lg py-8 font-sans font-normal ">
+          Don’t just take our word for it hear from the people who’ve trusted AKC Link Tech Digitizing to turn their business upside down (For the good).
           </p>
           <Testimonial />
         </div>
@@ -62,10 +61,10 @@ export default function App() {
         </div>
         <div className="text-center">
           <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
-            Pull The Trigger!
+          Ready to Light the Fuse?
           </p>
           <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
-            Let's bring your
+          Let's Cut to The Chase 
             <span className="py-5 block">vision to life.</span>
           </h2>
         </div>

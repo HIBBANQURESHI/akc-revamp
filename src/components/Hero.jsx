@@ -35,10 +35,9 @@ const Hero = () => {
                 : 'text-6xl'
             }`}
           >
-            We are a{' '}
-            <span className="text-sky-300">Software</span> <br />
-            <span className="text-sky-300">Development</span> <br />
-            Company.
+            Don't Blend In Stand Out with {' '}
+            <span className="text-sky-300">AKC Link Tech</span> <br />
+            <span className="text-sky-300">Digitizing</span> <br />
           </h1>
           <p
             className={`leading-relaxed ${
@@ -49,8 +48,8 @@ const Hero = () => {
                 : 'text-xl max-w-lg'
             }`}
           >
-            We are your trusted development partner with just one goal in focus:
-            to build products that generate a lasting, profitable impact.
+            We are your trusted development partner with just <br/> one goal in focus
+            to build products that generate <br/> a lasting, profitable impact. Why settle for ordinary when you can disrupt the market? <br/> With the No#1 Website Design & Development Agency, your brand breaks the mold. Ready to turn those spreadsheets into gold mines? Let's turn your business into a household name.
           </p>
         </div>
       </div>

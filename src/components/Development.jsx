@@ -55,7 +55,7 @@ const Development = () => {
     <ScrollSectionWrapper>
       <Content ref={containerRef}>
         <div className="px-7 text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-white">
-          Our product <span className="text-sky-300">development process</span>
+        Tired of Being Invisible?<br/> <span className="text-sky-300"> It’s Time to Go VIRAL </span>
         </div>
         <ProgressBarContainer>
           <ProgressBarBg />
@@ -67,9 +67,9 @@ const Development = () => {
             data-image="https://images.pexels.com/photos/4623506/pexels-photo-4623506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           >
             <h2>01/06</h2>
-            <h3>Ideate</h3>
+            <h3>Discovery</h3>
             <p>
-              We analyze your vision thoroughly to ensure the roadmap is perfectly aligned with your end goals, setting the stage for product success.
+            At AKC Link Tech Digitizing, we dig deep. Understanding your business goals is where it all starts, whether it's professional app development, affordable software services, or expert website design.
             </p>
           </Step>
           <Step
@@ -77,9 +77,9 @@ const Development = () => {
             data-image="https://images.pexels.com/photos/56759/pexels-photo-56759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           >
             <h2>02/06</h2>
-            <h3>Design</h3>
+            <h3>Planning</h3>
             <p>
-              Crafting a minimal viable product (MVP) that balances design with core functionality, maximizing value and user satisfaction.
+            We map out the journey, creating a roadmap that ensures your website hits the mark. As the No. 1 Website Design and Development Agency in the USA, our planning phase guarantees success for every project.
             </p>
           </Step>
           <Step
@@ -87,9 +87,9 @@ const Development = () => {
             data-image="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           >
             <h2>03/06</h2>
-            <h3>Develop</h3>
+            <h3>Design</h3>
             <p>
-              Transforming ideas into reality by implementing robust code and cutting-edge technologies to deliver a functional product.
+            Let’s turn heads with designs that communicate and connect with your audience. Our team of USA’s best designers includes American Top App Designers, crafting stunning visuals that capture your vision.
             </p>
           </Step>
           <Step
@@ -97,19 +97,29 @@ const Development = () => {
             data-image="https://images.pexels.com/photos/5428830/pexels-photo-5428830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           >
             <h2>04/06</h2>
-            <h3>Test</h3>
+            <h3>Development</h3>
             <p>
-              Testing the product for usability and functionality, ensuring the best possible user experience.
+            Our developers are code warlocks, turning beautiful designs into functional, user-friendly websites. Hire the best developers in the USA and experience why AKC Link Tech Digitizing is a trusted name for web development agency services.
             </p>
           </Step>
           <Step
             ref={(el) => (stepsRef.current[4] = el)}
             data-image="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           >
-            <h2>06/06</h2>
-            <h3>Support</h3>
+            <h2>05/06</h2>
+            <h3>Testing</h3>
             <p>
-              Providing ongoing support and maintenance for long-term success and improvement.
+            We leave no stone unturned. Every pixel, every line of code, is tested for perfection. This commitment to quality is why AKC Link Tech Digitizing leads as the best software agency and a reliable choice for web development in 2025.
+            </p>
+          </Step>
+          <Step
+            ref={(el) => (stepsRef.current[4] = el)}
+            data-image="https://images.pexels.com/photos/5428830/pexels-photo-5428830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          >
+            <h2>06/06</h2>
+            <h3>Launch & Support</h3>
+            <p>
+            The big day is here, and we’ll be right by your side. We don’t just launch websites; we launch success. Whether it’s digital marketing with the USA’s best experts or creating a roadmap for future growth, we’re your partners in excellence.
             </p>
           </Step>
         </Steps>
