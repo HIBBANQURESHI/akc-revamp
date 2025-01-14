@@ -285,6 +285,6 @@ const DynamicImage = styled.img`
     width: 384px;
     height: 544px;
   }
-`;
+`; 
 
 export default Development;
