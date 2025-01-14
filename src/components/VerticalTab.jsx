@@ -1,17 +1,30 @@
 import { useState } from "react";
-import { FaSwift, FaAndroid, FaNodeJs, FaAws, FaDocker } from "react-icons/fa";
-import { SiKotlin, SiReact, SiVueDotJs, SiFlutter, SiUnity, SiMysql, SiMongodb, SiGooglecloud, SiDjango, SiFirebase } from "react-icons/si";
-import { DiAngularSimple, DiJava, DiPostgresql } from "react-icons/di";
+import { FaSwift, FaAndroid, FaAws, FaDocker } from "react-icons/fa";
+import {
+  SiKotlin,
+  SiFlutter,
+  SiUnity,
+  SiMysql,
+  SiMongodb,
+  SiGooglecloud,
+  SiFirebase,
+} from "react-icons/si";
+import { DiJava, DiPostgresql } from "react-icons/di";
+import { SiReact } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
+import { DiAngularSimple } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
 
 
 export default function VerticalTab() {
   const [activeTab, setActiveTab] = useState(1);
- 
+
   const tabs = [
     { id: 1, label: "Mobile Apps" },
     { id: 2, label: "Web Platforms" },
     { id: 3, label: "Cross Platforms" },
-    { id: 4, label: "Games" }, 
+    { id: 4, label: "Games" },
     { id: 5, label: "Database" },
     { id: 6, label: "Cloud & DevOps" },
   ];
@@ -44,21 +57,20 @@ export default function VerticalTab() {
         {
           platform: "Frontend",
           technologies: [
-            { name: "React", icon: <SiKotlin /> },
-            { name: "Vue", icon: <SiKotlin /> },
-            { name: "Angular", icon: <SiKotlin /> },
+            { name: "React", icon: <SiReact /> },
+            { name: "Vue", icon: <SiVuedotjs /> },
+            { name: "Angular", icon: <DiAngularSimple /> },
           ],
         },
         {
           platform: "Backend",
           technologies: [
-            { name: "Node.js", icon: <SiKotlin /> },
-            { name: "Django", icon: <SiKotlin /> },
+            { name: "Node.js", icon: <FaNodeJs /> },
+            { name: "Django", icon: <SiDjango /> },
           ],
         },
       ],
     },
-    
     3: {
       title: "Cross Platforms",
       sections: [
@@ -122,12 +134,12 @@ export default function VerticalTab() {
   };
 
   return (
-    <section className="technology overflow-x-hidden sm:overflow-x-auto">
-      <div className="px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="technology">
+      <div className="px-4 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row mt-8 md:mt-12 lg:mt-20 md:border-t border-gray-300">
           {/* Tab List */}
-          <div className="w-full md:w-[30%] lg:w-[21.5%] border-r border-gray-300">
-            <div role="tablist" aria-orientation="vertical" className="flex md:block">
+          <div className="w-full md:w-1/4 lg:w-1/5 border-r border-gray-300 md:overflow-auto">
+            <div role="tablist" aria-orientation="vertical" className="flex md:block overflow-x-auto">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
@@ -135,8 +147,10 @@ export default function VerticalTab() {
                   id={`tab-${tab.id}`}
                   aria-selected={activeTab === tab.id}
                   aria-controls={`panel-${tab.id}`}
-                  className={`block py-5 px-7 font-medium text-left ${
-                    activeTab === tab.id ? "font-bold text-black bg-sky-200" : "text-gray-500"
+                  className={`block py-5 px-4 font-medium text-left whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? "font-bold text-black bg-sky-200"
+                      : "text-gray-500"
                   }`}
                   onClick={() => setActiveTab(tab.id)}
                 >
@@ -147,7 +161,7 @@ export default function VerticalTab() {
           </div>
 
           {/* Content Section */}
-          <div className="w-full md:w-[70%] lg:w-[78.5%] p-6">
+          <div className="w-full md:w-3/4 lg:w-4/5 p-4">
             {content[activeTab] && (
               <div>
                 <h3 className="text-2xl font-bold mb-6">{content[activeTab].title}</h3>
