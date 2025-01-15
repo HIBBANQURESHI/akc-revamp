@@ -45,7 +45,7 @@ const Industries = () => {
     <div className='max-w-7xl mx-auto px-6 py-48'>
       <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">Want to Know How We've Flipped Industries on Their Heads?</h2>
       <p className="text-xl sm:text-2xl lg:text-2xl font-normal mb-12 max-w-3xl">
-      Hold onto your hats because we shake things up across industries. From AKC Link Tech web development to AKC Link Tech app development, we're leaving our mark across
+      Hold onto your hats because we shake things up across industries. From AKC web development to AKC app development, we're leaving our mark across
       </p>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">

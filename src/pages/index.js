@@ -52,14 +52,24 @@ export default function App() {
            Still in Doubt? Hear It from Our  <span className="text-sky-300">Happy Clients</span>
           </h2>
           <p className="text-white text-lg py-8 font-sans font-normal ">
-          Don’t just take our word for it hear from the people who’ve trusted AKC Link Tech Digitizing to turn their business upside down (For the good).
+          Don’t just take our word for it hear from the people who’ve trusted AKC to turn their business upside down (For the good).
           </p>
           <Testimonial />
         </div>
         <div>
           <Industries />
         </div>
-        <div className="text-center">
+        <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at left center, #7dd3fc 5%, transparent 50%), 
+                radial-gradient(circle at right center, #7dd3fc 5%, transparent 50%)`,
+              backgroundColor: "#fff",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="text-center"
+          >
           <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
           Ready to Light the Fuse?
           </p>

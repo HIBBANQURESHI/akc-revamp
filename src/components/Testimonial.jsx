@@ -14,7 +14,7 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Ace J.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        Our website woke up to a new dawn with AKC Link Tech Digitizing. Best software agency 2025? They deserve that crown.
+        Our website woke up to a new dawn with AKC. Best software agency 2025? They deserve that crown.
         </p>
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2 ">
@@ -44,7 +44,7 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Jacub M.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        We needed to hire American web designers, and AKC Link Tech Digitizing delivered beyond expectations. Their process was seamless, and the results speak for themselves.        </p>
+        We needed to hire American web designers, and AKC delivered beyond expectations. Their process was seamless, and the results speak for themselves.        </p>
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img
@@ -73,7 +73,7 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Lisa T.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        AKC Link Tech Digitizing is the most affordable American web developer, and they left no place undone in transforming our outdated website into a modern masterpiece. I highly recommend them.        </p>
+        AKC is the most affordable American web developer, and they left no place undone in transforming our outdated website into a modern masterpiece. I highly recommend them.        </p>
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img

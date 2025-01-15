@@ -69,7 +69,7 @@ const Development = () => {
             <h2>01/06</h2>
             <h3>Discovery</h3>
             <p>
-            At AKC Link Tech Digitizing, we dig deep. Understanding your business goals is where it all starts, whether it's professional app development, affordable software services, or expert website design.
+            At AKC, we dig deep. Understanding your business goals is where it all starts, whether it's professional app development, affordable software services, or expert website design.
             </p>
           </Step>
           <Step
@@ -99,7 +99,7 @@ const Development = () => {
             <h2>04/06</h2>
             <h3>Development</h3>
             <p>
-            Our developers are code warlocks, turning beautiful designs into functional, user-friendly websites. Hire the best developers in the USA and experience why AKC Link Tech Digitizing is a trusted name for web development agency services.
+            Our developers are code warlocks, turning beautiful designs into functional, user-friendly websites. Hire the best developers in the USA and experience why AKC is a trusted name for web development agency services.
             </p>
           </Step>
           <Step
@@ -109,7 +109,7 @@ const Development = () => {
             <h2>05/06</h2>
             <h3>Testing</h3>
             <p>
-            We leave no stone unturned. Every pixel, every line of code, is tested for perfection. This commitment to quality is why AKC Link Tech Digitizing leads as the best software agency and a reliable choice for web development in 2025.
+            We leave no stone unturned. Every pixel, every line of code, is tested for perfection. This commitment to quality is why AKC leads as the best software agency and a reliable choice for web development in 2025.
             </p>
           </Step>
           <Step

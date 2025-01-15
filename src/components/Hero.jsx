@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
-        <div className="text-left text-white space-y-6 max-w-3xl">
+        <div className="text-left text-white space-y-0 max-w-3xl">
           <h1
             className={`font-bold ${
               isVerySmallScreen
@@ -35,9 +35,9 @@ const Hero = () => {
                 : 'text-6xl'
             }`}
           >
-            Don't Blend In Stand Out with {' '}
-            <span className="text-sky-300">AKC Link Tech</span> <br />
-            <span className="text-sky-300">Digitizing</span> <br />
+            Don't Blend In  {' '}
+            <span className="text-sky-300">Stand Out with AKC</span> <br />
+            <span className="text-sky-300"></span> <br />
           </h1>
           <p
             className={`leading-relaxed ${
@@ -48,8 +48,7 @@ const Hero = () => {
                 : 'text-xl max-w-lg'
             }`}
           >
-            We are your trusted development partner with just <br/> one goal in focus
-            to build products that generate <br/> a lasting, profitable impact. Why settle for ordinary when you can disrupt the market? <br/> With the No#1 Website Design & Development Agency, your brand breaks the mold. Ready to turn those spreadsheets into gold mines? Let's turn your business into a household name.
+            With the No#1 Website Design & Development Agency, your brand breaks the mold. Ready to turn those spreadsheets into gold mines? Let's turn your business into a household name.
           </p>
         </div>
       </div>
