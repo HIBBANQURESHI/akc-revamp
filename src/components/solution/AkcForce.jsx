@@ -4,21 +4,21 @@ const AkcForce = () => {
   
   const cardData = [
     {
-      title: "Win the War for Talent",
+      title: "Win the Talent Game",
       description:
-        "Attract and retain top performers with an optimized employee experience powered by HappyForce.",
+        "Attract top performers like a magnet. Our platform makes the employee experience so good, they'll think they've hit the career jackpot.",
       tags: [],
     },
     {
-      title: "Boost Productivity 10-20%",
+      title: "Sky-rocket Productivity",
       description:
-        "Real-time insights help administrators and managers maximize workforce output like never before.",
+        "Watch your team's output soar by fine amount. It's like having a crystal ball for workplace efficiency.",
       tags: [],
     },
     {
-      title: "Proven ROI",
+      title: "Put Wings on ROI",
       description:
-        "Leading organizations report recouping their investment within 6 months through increased efficiency.",
+        "Leading organizations are seeing returns faster than a boomerang. This would be a push towards your success.",
       tags: [],
     },
   ];

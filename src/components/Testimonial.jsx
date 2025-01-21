@@ -19,7 +19,7 @@ function Testimonial() {
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2 ">
           <img
-            src="https://via.placeholder.com/50"
+            src="https://media.gettyimages.com/id/1318928248/photo/portrait-of-a-young-man.jpg?s=612x612&w=0&k=20&c=ayy0fWfzLoC20BlYXDQmle1vz0a9Qrv8ssSwE3dLpzA="
             alt="Jackie Dallas"
             className="rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 object-cover"
           />
@@ -48,7 +48,7 @@ function Testimonial() {
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/50"
+            src="https://media.gettyimages.com/id/1145046435/photo/portrait-of-a-happy-mature-black-man.jpg?s=612x612&w=0&k=20&c=YjV_4TQ3r0gqOBG3VOO8BU4sp6Gf11tjUB360QyZtzk="
             alt="Hamed Al Zadjal"
             className="rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 object-cover"
           />
@@ -73,11 +73,12 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Lisa T.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        AKC is the most affordable American web developer, and they left no place undone in transforming our outdated website into a modern masterpiece. I highly recommend them.        </p>
+        AKC Link Tech Digitizing is the most affordable American web developer in the USA, and they left no place undone in transforming our outdated website into a modern masterpiece. I highly recommend them.
+        </p>
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/50"
+            src="https://media.gettyimages.com/id/1135381120/photo/portrait-of-a-young-woman-outdoors-smiling.jpg?s=612x612&w=0&k=20&c=T5dukPD1r-o0BFqeqlIap7xzw07icucetwKaEC2Ms5M="
             alt="Geoffrey Anderson"
             className="rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 object-cover"
           />
@@ -102,11 +103,12 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Mickel A.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        Working with the USA’s best app developer was a game-changer for our finance startup. I’ve never seen this professionalism and quality anywhere else.        </p>
+        Working with the USA’s best app developer was a game-changer for our finance startup. I’ve never seen this professionalism and quality anywhere else.
+        </p>
         {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/50"
+            src="https://media.gettyimages.com/id/1437047112/photo/volunteer-friends-gardening-at-sunset-taking-a-selfie.jpg?s=612x612&w=0&k=20&c=0Qp1W9TjUH_iVgGJOoyELBDIzmrwtIbe22x8xdBwV9M="
             alt="Cleitn Kimberly"
             className="rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 object-cover"
           />
@@ -130,10 +132,12 @@ function Testimonial() {
       >
         <p className="text-lg sm:text-xl font-semibold text-white mb-4 text-left">Kelly R.</p>
         <p className="text-sm sm:text-xl text-white mb-4 text-left">
-        The team’s expertise in digital marketing made our brand a standout. There’s no doubt in calling them the Top Digital Marketing company we need.</p>        {/* Image and Stars */}
+        The team’s expertise in digital marketing made our brand a standout. There’s no doubt in calling them the top digital marketing company we need.
+        </p>
+        {/* Image and Stars */}
         <div className="absolute bottom-8 left-20 flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/50"
+            src="https://media.gettyimages.com/id/1304581885/photo/portrait-of-young-woman-smiling.jpg?s=612x612&w=0&k=20&c=szq9mHVYt-iWL6TebJ6BfxSX8e9WR1HqF-PbR5oma4Y="
             alt="Cleitn Kimberly"
             className="rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 object-cover"
           />

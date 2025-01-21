@@ -4,39 +4,48 @@ const Services = () => {
   const services = [
     {
       title: "Web Development Consulting",
-      description: "Get expert advice and define your project scope for a smooth development process.",
+      description:
+        "Our web development consultant team map your journey to digital dominance. We make you the market trend.",
     },
     {
       title: "Custom Web Development",
-      description: "Create tailored solutions, from CRM systems to SaaS applications, designed to boost engagement and growth.",
+      description:
+        "When you need custom web development services that make your competition lose sleep, we deliver.",
     },
     {
-      title: "Web Design Services",
-      description: "Beautiful and functional web designs that reflect your brand’s values.",
+      title: "Web Design and Development Services",
+      description:
+        "As a professional website development services provider, we create experiences that turn your website in a revenue machine.",
     },
     {
       title: "Ecommerce Development",
-      description: "Build feature-rich ecommerce platforms that drive sales and customer satisfaction.",
+      description:
+        "We're not just another web portal development company; we're your partner in ecommerce excellence.",
     },
     {
       title: "Web Application Development",
-      description: "Custom web apps designed for ease of use and operational alignment.",
+      description:
+        "Our cross-platform web application development consultant team makes sure your apps work everywhere.",
     },
     {
       title: "Progressive Web Apps (PWAs)",
-      description: "Reach your audience anytime with apps that offer native-like experiences.",
+      description:
+        "The future of web development services company USA is here. We build PWAs that load faster than your user’s power to blink.",
     },
     {
       title: "CMS Development",
-      description: "Simplify content management with custom CMS platforms.",
+      description:
+        "As a website development service provider, we create management systems that make content updates a breeze.",
     },
     {
       title: "API Development & Integration",
-      description: "Enhance functionality with powerful APIs.",
+      description:
+        "Small business web development agency expertise meets enterprise-grade integration. We make systems talk to each other like old friends.",
     },
     {
       title: "Staff Augmentation",
-      description: "Access skilled web developers on demand to meet your project needs.",
+      description:
+        "Extend your team with top-tier developers to accelerate your projects cause our affordable web development experts are ready to jump in.",
     },
   ];
 
@@ -44,9 +53,12 @@ const Services = () => {
     <div className="py-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="text-left">
-            <h3 className="text-2xl font-bold text-black mb-2">{service.title}</h3>
-            <p className="text-gray-700 text-lg">{service.description}</p>
+          <div
+            key={index}
+            className="flex flex-col p-6 rounded-lg h-full"
+          >
+            <h3 className="text-2xl font-bold text-black mb-4">{service.title}</h3>
+            <p className="text-gray-700 text-lg flex-grow">{service.description}</p>
           </div>
         ))}
       </div>

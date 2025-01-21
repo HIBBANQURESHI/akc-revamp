@@ -3,15 +3,14 @@ import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
 
 const cardsData = [
-  { heading: "Finance", paragraph: "Improve efficiency and security." },
-  { heading: "Healthcare", paragraph: "Enhance patient care and streamline processes." },
-  { heading: "Media", paragraph: "Engage a wider audience with advanced solutions." },
-  { heading: "Telecom", paragraph: "Innovative solutions for better customer management." },
-  { heading: "Logistics", paragraph: "Optimize operations and reduce overheads." },
-  { heading: "Automotive", paragraph: "Enhance customer loyalty and vehicle management." },
-  { heading: "Real Estate", paragraph: "Simplify property management and sales." },
-  { heading: "Education", paragraph: "Revolutionize learning and student management." },
-  { heading: "Energy", paragraph: "Improve operations and safety." },
+  { heading: "Finance", paragraph: "FinTech solutions that turn bean counters into believers." },
+  { heading: "Healthcare", paragraph: "We make patient portals that heal user experience headaches." },
+  { heading: "Media", paragraph: "Streaming platforms that keep eyeballs glued and servers flourishing." },
+  { heading: "Telecom", paragraph: "We connect dots and people across the digital universe." },
+  { heading: "Logistics & Automotive", paragraph: "Providing fleet management that runs like a well-oiled machine." },
+  { heading: "Real Estate", paragraph: "Property platforms that turn tire-kickers into key-holders." },
+  { heading: "Education", paragraph: "Learning management systems that make students forget they're studying." },
+  { heading: "Energy", paragraph: "Powering the future with code that's cleaner than solar panels on a sunny day." },
 ];
 
 export default function Swiper() {

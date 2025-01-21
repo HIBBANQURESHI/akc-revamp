@@ -1,15 +1,15 @@
 import React from "react";
 
 const cardsData = [
-  { heading: "Finance", paragraph: "Create a professional and trustworthy brand identity for your financial services." },
-  { heading: "Healthcare", paragraph: "Design a caring and reliable brand identity that builds trust in the healthcare industry." },
-  { heading: "Media", paragraph: "Develop a bold and engaging brand presence that resonates with your media audience." },
-  { heading: "Telecom", paragraph: "Craft a modern and reliable brand identity that highlights innovation in telecom." },
-  { heading: "Logistics", paragraph: "Design a strong and efficient brand identity that reflects reliability in logistics." },
-  { heading: "Automotive", paragraph: "Create a dynamic and cutting-edge brand identity that speaks to the automotive industry." },
-  { heading: "Real Estate", paragraph: "Develop a professional and approachable brand identity that builds trust in real estate." },
-  { heading: "Education", paragraph: "Craft an inspiring and forward-thinking brand identity that promotes learning and growth." },
-  { heading: "Energy", paragraph: "Design an innovative and sustainable brand identity that reflects your commitment to the energy sector." },
+  { heading: "Finance", paragraph: "Banking was boring until we crashed the party. Our brand development services turned stuffy financial institutions into sleek, money-moving machines that users want to swipe right on." },
+  { heading: "Healthcare", paragraph: "We took the 'ache' out of healthcare branding. Our corporate brand development services transformed clinical coldness into caring connections." },
+  { heading: "Media", paragraph: "Through our brand strategy development services, we've turned media companies from channel surfers into wave makers." },
+  { heading: "Telecom", paragraph: "We made connectivity look attractive. Yeah, you read that right. Our business branding services turned signal bars into style bars." },
+  { heading: "Logistics", paragraph: "Shipping and logistics? Our brand marketing services turned tracking numbers into brand trackers. We make moving stuff look cooler than a penguin in sunglasses." },
+  { heading: "Automotive", paragraph: "Vroom! That's the sound of our brand identity development services, taking your automotive brand from 0 to 60 in style. We design brands that make car guys drool." },
+  { heading: "Real Estate", paragraph: `We turned "location" into "LOOK AT THAT!" Our expert designers make property brands that sell themselves. Even the "For Sale" signs get jealous.` },
+  { heading: "Education", paragraph: "Our brand strategy service turned academic institutions from dusty libraries into dynamic learning launchpads. Knowledge is power, but great branding? That's our superpower." },
+  { heading: "Energy", paragraph: "We energize the energy sector, turning power companies into powerhouse brands. Whether it’s renewable energy or traditional power, we make brands that radiate innovation and strength." },
 ];
 
 export default function BrandingSwiper() {

@@ -1,15 +1,15 @@
 import React from "react";
 
 const cardsData = [
-  { heading: "Finance", paragraph: "Create a professional and trustworthy logo for your financial brand." },
-  { heading: "Healthcare", paragraph: "Design a logo that reflects care, trust, and professionalism in the healthcare industry." },
-  { heading: "Media", paragraph: "Develop a captivating logo that resonates with your audience and reflects your media presence." },
-  { heading: "Telecom", paragraph: "Craft a modern and reliable logo for telecom companies, focusing on connectivity and innovation." },
-  { heading: "Logistics", paragraph: "Design a logo that represents efficiency, reliability, and movement in the logistics sector." },
-  { heading: "Automotive", paragraph: "Create a logo that reflects speed, precision, and innovation in the automotive industry." },
-  { heading: "Real Estate", paragraph: "Design a sleek and professional logo that conveys trust and expertise in the real estate market." },
-  { heading: "Education", paragraph: "Craft a logo that symbolizes knowledge, growth, and accessibility for educational institutions." },
-  { heading: "Energy", paragraph: "Develop a dynamic and powerful logo that conveys sustainability and innovation in the energy sector." },
+  { heading: "Finance", paragraph: "Making money look good is our forte. From banks to fintech startups, our American logo designers craft logos that exude credibility and professionalism." },
+  { heading: "Healthcare", paragraph: "We create visual identities that heal brand inconsistencies. Our professional logo design services deliver solutions that connect with patients and professionals alike." },
+  { heading: "Media", paragraph: "We create logos that steal the spotlight. Media companies rely on our logo branding design services to stand out. Exceptionally dynamic versatile logos for broadcasters are our game." },
+  { heading: "Telecom", paragraph: "Connecting visual dots across platforms, we strengthen brands with brand identity development for telecom giants and startups. We ensure your brand can connect with audiences." },
+  { heading: "Logistics", paragraph: "Branding that delivers every time. From shipping companies to delivery startups, our brand strategy development services ensure a seamless identity that communicates reliability." },
+  { heading: "Automotive", paragraph: "Designs that accelerate brand recognition. With logo branding design services and brand marketing services, we’ve helped automotive brands rev up their identities." },
+  { heading: "Real Estate", paragraph: "Property brands that build equity. Our brand strategy service creates visuals that reflect value and growth. Through corporate brand development services, we design logos that capture the essence of the real estate world." },
+  { heading: "Education", paragraph: "Learning institutions that look as smart as they teach. We offer brand development services tailored for schools, universities, and e-learning platforms." },
+  { heading: "Energy", paragraph: "Powering brands with visual voltage. Energy companies trust our logo branding design services to illuminate their identity because we create logos that radiate innovation and sustainability." },
 ];
 
 export default function LogoSwiper() {

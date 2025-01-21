@@ -27,51 +27,51 @@ const Index = () => {
   const cardData = [
     {
       number: "01",
-      title: "IP Protection",
+      title: "Trust Comes First",
       description:
-        "AKC prioritizes intellectual property protection, commencing every project with an NDA to safeguard crucial client information.",
+        "Before we dive into the exciting stuff, we lock down your intellectual property. Every conversation starts with an iron-clad NDA because your brilliant ideas deserve Pentagon-level protection.",
     },
     {
       number: "02",
-      title: "Consultation & Project Discovery",
+      title: "Deep-Dive Discovery",
       description:
-        "In-depth discussions refine the scope, timelines, and resource allocation to align with project requirements and objectives.",
+        "In this step, we'll get to know your vision inside and out, mapping out timelines and resources that align perfectly with your goals. No detail is too small when we're building your digital future.",
     },
     {
       number: "03",
-      title: "Rapid Strategy Workshop",
+      title: "Strategy Sprint",
       description:
-        "AKC identifies the optimal development approach, evaluates risks, and prepares a detailed (LOE) level of effort document.",
+        "Our team of digital architects puts their heads together to craft your success blueprint. We'll evaluate every angle, identify potential challenges, and create a detailed game plan.",
     },
     {
       number: "04",
-      title: "User Interfaces & Experiences",
+      title: "Design Mastery",
       description:
-        "Seasoned UI/UX architects craft visually captivating and user-centric designs that seamlessly integrate with your brand identity.",
+        "Our UI/UX experts are pro at creating experiences that users fall in love with. We blend stunning visuals with intuitive functionality wrapped up in your brand's unique personality.",
     },
     {
       number: "05",
-      title: "Agile Development Approach",
+      title: "Agile Excellence",
       description:
-        "The project is methodically broken down into sprints, enabling continuous feedback, rapid iteration, and efficient execution.",
+        "We break down your project into bite-sized sprints that deliver results effortlessly. This approach keeps you in the driver's seat, with regular updates and the flexibility to pivot when inspiration strikes.",
     },
     {
       number: "06",
-      title: "Testing & Quality Assurance",
+      title: "Quality Assurance",
       description:
-        "Dedicated quality assurance team conducts comprehensive testing to ensure high performance, reliability, and a flawless user experience.",
+        "Our quality assurance professionals leave no stone unturned. Every click, swipe, and interaction is tested with precision. We're not happy until your solution runs smoother.",
     },
     {
       number: "07",
-      title: "Support & Maintenance",
+      title: "Support That Never Sleeps",
       description:
-        "After deployment, Cubix provides comprehensive maintenance and responsive support to guarantee lasting project success.",
+        "Our dedicated support team sticks with you like your favorite smartphone case, providing updates, maintenance, and peace of mind. Think of us as your digital guardians.",
     },
     {
       number: "08",
-      title: "Deployment & Beyond",
+      title: "Future-Proof Success",
       description:
-        "The final solution is deployed with thorough documentation and monitoring, optimized for continuous improvement and long-term viability.",
+        "We don't just launch and wave goodbye. Your solution goes live with comprehensive documentation, continuous monitoring, and optimization plans that keep you ahead of the curve.",
     },
   ];
 
@@ -83,19 +83,17 @@ const Index = () => {
       {/* Intro Section */}
       <div className="py-20 px-6 sm:px-10 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
-          Our process
+        The Steps Towards Your Brand’s Success
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-4xl font-normal text-left mb-6 leading-relaxed">
-          At AKC, we deliver successful products by doing three things being
-          accountable for our projects, making our methods transparent, and
-          building strong relationships with our clients.
+        <p className="py-5 text-black text-xl sm:text-2xl lg:text-2xl font-normal text-left mb-6 leading-relaxed">
+        At AKC Link Tech Digitizing, we believe great solutions are built on rock-solid accountability, crystal-clear communication, and partnerships that feel like family. Here's how we turn you into an industry leader.
         </p>
       </div>
 
       {/* "We Start Here" Section */}
       <div className="px-6 sm:px-10 lg:px-72 py-20">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-12 text-black">
-          We start here
+        The Journey to Excellence
         </h2>
 
         {/* Cards Section */}
@@ -112,14 +110,24 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16">
+      <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at left center, #7dd3fc 5%, transparent 50%), 
+                radial-gradient(circle at right center, #7dd3fc 5%, transparent 50%)`,
+              backgroundColor: "#fff",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="text-center"
+          >
         <motion.p
           className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          Pull The Trigger!
+          Ready to Light the Fuse?
         </motion.p>
         <motion.h2
           className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6"
@@ -127,10 +135,12 @@ const Index = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Let's bring your
-          <span className="py-5 block">vision to life.</span>
+          Let's Cut to the Chase
+          <span className="py-5 block"></span>
         </motion.h2>
       </div>
+
+      <div className="py-16"></div>
 
       {/* Footer Section */}
       <div

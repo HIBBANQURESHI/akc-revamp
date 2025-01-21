@@ -35,11 +35,11 @@ const Index = () => {
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-20 xl:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-left mb-6 text-sky-300">
-          Branding <br />
-          <span className="font-bold">Services.</span>
+        Top-Class Brand Identity  <br />
+          <span className="font-semibold">Development Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl xl:text-4xl font-normal text-left mb-6">
-          At AKC, we specialize in crafting powerful and effective branding solutions that help your business stand out and resonate with your audience through memorable logos, cohesive brand identities, and impactful design strategies.
+        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl xl:text-2xl font-normal text-left mb-6">
+        Is your branding missing the hues? Welcome to the intersection of strategy and style. Our brand development services provide commercial crusaders that dominate markets and drop jaws. As leaders in corporate brand development services, we know the difference between good and unforgettable.
         </p>
       </div>
 
@@ -53,7 +53,7 @@ const Index = () => {
 
       <div className="px-6 sm:px-10 lg:px-20 xl:px-72 py-20">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-          Comprehensive branding services.
+        Finding Professional Branding Services? <br/>You’re In the Right Place
         </h2>
         <BrandingServices />
       </div>
@@ -68,12 +68,9 @@ const Index = () => {
       >
         <div className="px-6 sm:px-10 lg:px-20 xl:px-72">
           <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6">
-            Serving a variety of
-            <span className="text-sky-300 ml-2">industries.</span>
+          How We Shifted Brands into Industry 
+            <span className="text-sky-300 ml-2">Leaders.</span>
           </h2>
-          <p className="text-white text-lg sm:text-xl lg:text-2xl mb-10">
-            AKC provides innovative branding solutions for businesses across multiple sectors.
-          </p>
         </div>
         <BrandingSwiper />
       </div>
@@ -82,15 +79,26 @@ const Index = () => {
         <BrandingFaq />
       </div>
 
-      <div className="text-center px-6 sm:px-10 lg:px-20 xl:px-72 py-10">
-        <p className="text-lg sm:text-xl lg:text-2xl font-normal mb-6">
-          Pull The Trigger!
+      <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at left center, #7dd3fc 5%, transparent 50%), 
+                radial-gradient(circle at right center, #7dd3fc 5%, transparent 50%)`,
+              backgroundColor: "#fff",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="text-center"
+          >        <p className="text-lg sm:text-xl lg:text-2xl font-normal mb-6">
+        Ready to Light the Fuse?
         </p>
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-          Ready to build
-          <span className="block py-5">your brand?</span>
+        Let's Cut to The Chase
+          <span className="block py-5"></span>
         </h2>
       </div>
+
+      <div className="py-20"></div>
 
       <div
         style={{
@@ -98,6 +106,7 @@ const Index = () => {
           backgroundColor: "#000",
           backgroundSize: "100% 100%",
         }}
+        
       >
         <Footer />
       </div>

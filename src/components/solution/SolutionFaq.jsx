@@ -2,27 +2,39 @@ import React, { useState } from "react";
 
 const faqs = [
     {
-      question: "What are the key features of HR software?",
+      question: "What are the core features of your HR software solutions?",
       answer: (
         <>
-          As a full-featured industry-leading HR solution, some of the robust features of HappyForce include real-time, time and attendance tracking, training management, event coordination, performance reviews, recruitment, paperless onboarding, payroll integration, and more. It empowers organizations across sectors with a centralized, user-friendly platform for simplified and optimized HR management.
-        </>
+Its core features include employee management, payroll processing, performance management, attendance tracking, benefits administration, recruitment, and compliance tracking, which aim to improve HR operations and overall efficiency.        </>
       ),
     },
     {
-      question: "What sets AKC apart in HR Software Development Services?",
+      question: "Can your HR software integrate with existing systems?",
       answer: (
         <>
-          AKC stands out for 14+ years of excellence in HR technology. We transform people's strategies through trailblazing HR software that empowers workforce optimization. A customer-centric approach and agile methodology ensure innovative, scalable, and user-friendly HR solutions deliver phenomenal results.
-        </>
+Yes, our HR solutions are designed with integration capabilities that allow seamless connections with your existing systems, such as payroll, accounting, and CRM software. This enables an uninterrupted flow of data across your organization and minimizes manual entry errors.        </>
       ),
     },
     {
-      question: "How can I get started with Cubix's HR software solutions for my business?",
+      question: "Is your HR software mobile-friendly for remote teams?",
       answer: (
         <>
-          Reach out, and our experts will analyze your HR processes and gather insights to develop cutting-edge employee management software tailored to your vision. AKC is dedicated to crafting effective HR management solutions that drive organizational success.
-        </>
+Yes, our HR solution is fully mobile and responsive design, so remote employees can perform HR functions on a smartphone or tablet, whether for attendance tracking, requesting time off, or performance reviews.        </>
+      ),
+    },
+    {
+      question: "Can I track employee performance using your HR software?",
+      answer: (
+        <>
+Yes, our HR software has strong performance-tracking features. For example, this software allows managers to create goals, give feedback, conduct performance reviews, and monitor progress through intuitive dashboards that allow them to make data-driven decisions to enhance employee performance.        </>
+      ),
+    },
+    {
+      question: "Why should I choose AKC Link Tech Digitizing for HR software development?",
+      answer: (
+        <>
+AKC Link Tech Digitizing is important because of our credentials in building custom HR solutions on a specialty basis meant for all of your businesses. Our innovation merges with experience and high-end technology to create unique HR software that is efficient, scalable, and secure, assisting with business growth and improving employee management.
+</>
       ),
     },
   ];

@@ -2,26 +2,42 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "How much does web development cost?",
+    question: "Why should I choose AKC Link Tech for web development?",
     answer: (
       <>
-        Costs vary based on complexity. For instance, a simple website might range from $2,000 to $7,000, while custom e-commerce platforms can exceed $10,000.
+        As a leading website designing development company, we provide innovative, reliable, and affordable web development solutions.
       </>
     ),
   },
   {
-    question: "How long does the development process take?",
+    question: "Do you cater to small businesses?",
     answer: (
       <>
-       A medium complexity project typically takes between 6-12 months.
+       Of course. We specialize as a small business web development agency, offering cost-effective solutions without compromising on quality.
       </>
     ),
   },
   {
-    question: "Why choose AKC?",
+    question: "Can you develop cross-platform applications?",
     answer: (
       <>
-       With over 10 years of experience and 300+ projects, AKC is trusted by leading companies for its reliable web development services.
+       Yes, as a cross-platform web application development consultant, we create apps that work seamlessly across all devices.
+      </>
+    ),
+  },
+  {
+    question: "What sets your custom services apart?",
+    answer: (
+      <>
+      Our custom web development services are crafted to align with your specific business goals, ensuring maximum impact.
+      </>
+    ),
+  },
+  {
+    question: "Do you offer local business solutions?",
+    answer: (
+      <>
+       Yes, we specialize in local business web development, empowering businesses to connect with their communities online.
       </>
     ),
   },
@@ -40,7 +56,7 @@ export default function FAQ() {
 
   return (
     <div className="flex flex-col items-center mt-8">
-      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-sky-300 px-32">Common questions about web development.</h1>
+      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-sky-300 px-32">Frequently Asked Questions for Website Design and Development Company</h1>
 
       <div className="w-3/5 md:w-4/5">
         {faqs.map((faq, index) => (

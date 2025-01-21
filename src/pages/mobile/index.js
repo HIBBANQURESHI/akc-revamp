@@ -54,11 +54,11 @@ const Index = () => {
       <Navbar />
       <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
-          App Development <br />
-          <span className="font-bold">Services.</span>
+        No#1 Ranked Mobile<br />
+          <span className="font-bold">App Development Services.</span>
         </h2>
         <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
-          Build reliable and easy-to-use Android apps with our expert developers, ensuring smooth performance and a seamless experience for all users.
+        Did the light bulb of your head light up with a new app idea? Have no clue where to take it? Our custom web app development services code dreams into realities. So, are you ready to witness how magic happens? Let’s explore.
         </p>
       </div>
 
@@ -97,13 +97,23 @@ const Index = () => {
         <MobileFaq />
       </div>
 
-      <div className="text-center px-6 sm:px-12 lg:px-28">
+      <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at left center, #7dd3fc 5%, transparent 50%), 
+                radial-gradient(circle at right center, #7dd3fc 5%, transparent 50%)`,
+              backgroundColor: "#fff",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="text-center"
+          >
         <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6">
-          Pull The Trigger!
+        Ready to Light the Fuse?
         </p>
         <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
-          Ready to build
-          <span className="py-5 block">your App?</span>
+        Let's Cut to The Chase
+          <span className="py-5 block"></span>
         </h2>
       </div>
 

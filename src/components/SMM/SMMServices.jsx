@@ -4,39 +4,39 @@ const SMMServices = () => {
     const services = [
         {
           title: "Social Media Strategy",
-          description: "Develop tailored social media strategies to boost engagement and brand visibility."
+          description: "Our social media marketing management services don't just post and pray—we calculate, calibrate, and dominate. Think chess, but with memes."
+        },
+        {
+          title: "Paid Social Media Campaigns",
+          description: "Our paid social media marketing services make every penny work harder than a squirrel at a nut factory. ROI is so good that your accounts stay happy."
+        },
+        {
+          title: "Social Media Analysis",
+          description: "Numbers tell stories, but our paid social media marketing services make them tell bestsellers. We turn data into dollars while others are still counting likes."
         },
         {
           title: "Content Creation",
-          description: "Create engaging and shareable content that resonates with your audience across platforms."
-        },
-        {
-          title: "Social Media Management",
-          description: "Manage and optimize your social media presence with consistent posting and active engagement."
-        },
-        {
-          title: "Paid Social Campaigns",
-          description: "Run targeted ad campaigns to increase reach, drive traffic, and boost conversions."
+          description: "Forget cheap social media marketing services that spam feeds. We create content that makes thumbs stop and eyes pop. Because in the scroll-or-die world, mediocre is just another word for invisible."
         },
         {
           title: "Brand Monitoring",
-          description: "Monitor your brand’s online presence and manage reputation with real-time tracking."
+          description: "Our small business social media marketing services watch your brand like a hawk with insomnia. We catch conversations before they become crises."
+        },
+        {
+          title: "Community Management ",
+          description: "Through our small business social media marketing services, we turn comment sections into fan clubs. Trolls? We turn them into loyal customers."
+        },
+        {
+          title: "Social Media Management",
+          description: "We are the social media marketing agency that never sleeps. While others are scheduling tomorrow's post, we plan next month's viral campaign."
         },
         {
           title: "Influencer Marketing",
-          description: "Collaborate with influencers to expand reach and build trust with your target audience."
-        },
-        {
-          title: "Social Media Analytics",
-          description: "Track performance and optimize campaigns with in-depth social media analytics."
-        },
-        {
-          title: "Community Management",
-          description: "Foster strong relationships with your audience through active community engagement."
+          description: "Our social media marketing consulting services don't just find influencers – we find soulmates for your brand. Swipe right on success."
         },
         {
           title: "Staff Augmentation for SMM Projects",
-          description: "Access skilled SMM professionals to elevate your social media marketing efforts."
+          description: "Need to inject some viral DNA into your team? Our social media dynamos are ready to rock."
         },
       ];
       

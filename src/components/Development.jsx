@@ -64,9 +64,8 @@ const Development = () => {
         <Steps>
           <Step
             ref={(el) => (stepsRef.current[0] = el)}
-            data-image="https://images.pexels.com/photos/4623506/pexels-photo-4623506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/Discovery.jpg"
           >
-            <h2>01/06</h2>
             <h3>Discovery</h3>
             <p>
             At AKC, we dig deep. Understanding your business goals is where it all starts, whether it's professional app development, affordable software services, or expert website design.
@@ -74,9 +73,8 @@ const Development = () => {
           </Step>
           <Step
             ref={(el) => (stepsRef.current[1] = el)}
-            data-image="https://images.pexels.com/photos/56759/pexels-photo-56759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/PLANNING.jpg"
           >
-            <h2>02/06</h2>
             <h3>Planning</h3>
             <p>
             We map out the journey, creating a roadmap that ensures your website hits the mark. As the No. 1 Website Design and Development Agency in the USA, our planning phase guarantees success for every project.
@@ -84,9 +82,8 @@ const Development = () => {
           </Step>
           <Step
             ref={(el) => (stepsRef.current[2] = el)}
-            data-image="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/DEVELOP.jpg"
           >
-            <h2>03/06</h2>
             <h3>Design</h3>
             <p>
             Let’s turn heads with designs that communicate and connect with your audience. Our team of USA’s best designers includes American Top App Designers, crafting stunning visuals that capture your vision.
@@ -94,32 +91,28 @@ const Development = () => {
           </Step>
           <Step
             ref={(el) => (stepsRef.current[3] = el)}
-            data-image="https://images.pexels.com/photos/5428830/pexels-photo-5428830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/DEVELOP-2.jpg"
           >
-            <h2>04/06</h2>
             <h3>Development</h3>
             <p>
-            Our developers are code warlocks, turning beautiful designs into functional, user-friendly websites. Hire the best developers in the USA and experience why AKC is a trusted name for web development agency services.
+            Our developers are code warlocks, turning beautiful designs into functional, user-friendly websites. Hire USA’s best developers and experience why AKC Link Tech Digitizing is a trusted name for web development agency services.
             </p>
           </Step>
           <Step
             ref={(el) => (stepsRef.current[4] = el)}
-            data-image="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/TESTING.jpg"
           >
-            <h2>05/06</h2>
             <h3>Testing</h3>
             <p>
-            We leave no stone unturned. Every pixel, every line of code, is tested for perfection. This commitment to quality is why AKC leads as the best software agency and a reliable choice for web development in 2025.
-            </p>
+            We leave no stone unturned. Every pixel, every line of code, is tested for perfection. This commitment to quality is why AKC Link Tech Digitizing leads as the best software agency and a reliable choice for web development in 2025.            </p>
           </Step>
           <Step
             ref={(el) => (stepsRef.current[4] = el)}
-            data-image="https://images.pexels.com/photos/5428830/pexels-photo-5428830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            data-image="assets/launch-and-support.jpg"
           >
-            <h2>06/06</h2>
             <h3>Launch & Support</h3>
             <p>
-            The big day is here, and we’ll be right by your side. We don’t just launch websites; we launch success. Whether it’s digital marketing with the USA’s best experts or creating a roadmap for future growth, we’re your partners in excellence.
+            The big day is here, and we’ll be right by your side. We don’t just launch websites; we launch success. Whether it’s digital marketing with the USA’s best digital marketing experts or creating a roadmap for future growth, we’re your partners in excellence.
             </p>
           </Step>
         </Steps>

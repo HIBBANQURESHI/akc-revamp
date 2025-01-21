@@ -1,6 +1,8 @@
 // Import the Poppins font
 import { Poppins } from 'next/font/google';
 import '../styles/globals.css';
+import Head from "next/head";
+
 
 // Configure the font with desired weights and subsets
 const poppins = Poppins({
@@ -12,6 +14,9 @@ const poppins = Poppins({
 export default function MyApp({ Component, pageProps }) {
   return (
     <main className={`${poppins.variable} font-sans`}>
+      <Head>
+        <link rel="icon" href="/logo.PNG" />
+      </Head>
       <Component {...pageProps} />
     </main>
   );

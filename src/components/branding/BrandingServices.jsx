@@ -4,39 +4,35 @@ const BrandingServices = () => {
     const services = [
         {
           title: "Brand Strategy Consulting",
-          description: "Get expert guidance to define your brand's vision, mission, and values for a successful market presence.",
-        },
-        {
-          title: "Custom Logo Design",
-          description: "Create unique and memorable logos that represent your brand identity and resonate with your target audience.",
-        },
-        {
-          title: "Brand Identity Design",
-          description: "Develop cohesive brand identities with logos, color schemes, typography, and visuals that reflect your core values.",
+          description: "Through our brand strategy development services, we don't just plan – we prophesy. Think of us as your brand's crystal ball, forecasting trends while others follow them.",
         },
         {
           title: "Ecommerce Branding",
-          description: "Design a strong visual identity for your ecommerce platform that builds trust and enhances customer experience.",
-        },
-        {
-          title: "Brand Guidelines Development",
-          description: "Establish clear and detailed brand guidelines to ensure consistency across all marketing materials and channels.",
-        },
-        {
-          title: "Packaging Design",
-          description: "Create eye-catching and functional packaging that strengthens your brand’s message and attracts customers.",
+          description: "Our business branding services make your digital presence pop like fireworks in the night sky. Because in the e-commerce jungle, bland is banned.",
         },
         {
           title: "Social Media Branding",
-          description: "Design social media profiles, cover images, and post templates that align with your brand’s visual identity.",
+          description: "As American logo designers, we craft visual stories that stop the scroll and start the conversation. Your social media will not just exist—it will dominate.",
         },
         {
-          title: "Content Strategy & Creation",
-          description: "Develop a content strategy that complements your branding and engages your target audience effectively.",
+          title: "Custom Logo Design",
+          description: "When you need custom logo design services that make competitors stare, we deliver. There are no templates or recycled ideas—just pure creative firepower that turns heads.",
         },
         {
-          title: "Staff Augmentation for Branding Projects",
-          description: "Access skilled branding experts and designers on demand to bring your brand vision to life.",
+          title: "Brand Guidelines Development",
+          description: "Through our brand identity development services, we create bibles of visual brilliance. Every color, font, and pixel has a purpose.",
+        },
+        {
+          title: "Brand Identity Design",
+          description: "Our brand marketing services ensure your brand speaks with one voice, whether whispering to a startup or roaring from a billboard.",
+        },
+        {
+          title: "Packaging Design",
+          description: "From shelf to shopping cart, our professional logo design services make your products the ones customers can't resist picking up.",
+        },
+        {
+          title: "Staff Augmentation",
+          description: `Do you need to beef up your branding team? Our logo branding design services experts are ready to jump in faster than your competition can think "rebrand."`,
         },
       ];
       

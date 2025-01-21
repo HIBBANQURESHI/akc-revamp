@@ -2,27 +2,38 @@ import React, { useState } from "react";
 
 const faqs = [
     {
-      question: "How much does logo design cost?",
+      question: "What differentiates your logo designing services?",
       answer: (
         <>
-          Costs depend on the complexity and customization. A basic logo design might range from $500 to $2,000, while highly customized or brand identity-focused designs can exceed $5,000.
-        </>
+Our logo designers in America create strikingly elegant logos that represent the disposition of your brand. Providing quality, innovation, and customization is in the vein of our logo branding design services.        </>
       ),
     },
     {
-      question: "How long does the logo design process take?",
+      question: "How do you ensure my logo will stand out in the market?",
       answer: (
         <>
-          A standard logo design project typically takes between 2-4 weeks, depending on revisions and the complexity of the design.
-        </>
+We conduct in-depth market research to invent logos that best suit the requirements of your target audience, while our brand management services ensure that the identity evolves with ongoing market trends.        </>
       ),
     },
     {
-      question: "Why choose Cubix for logo design?",
+      question: "Can I request modifications for my logo?",
       answer: (
         <>
-          With over 10 years of design experience and a portfolio of 300+ successful logos, Cubix is trusted by leading brands for its creative and impactful logo design services.
-        </>
+Yes. We provide revisions until you are absolutely satisfied. A custom logo design entails working rounds of feedback to perfect your logo with everyone's collaboration.        </>
+      ),
+    },
+    {
+      question: "Do you design logos for startups?",
+      answer: (
+        <>
+Yes. That's one of our specifications. We specialize in providing brand strategy and custom logo design services for fledgling businesses, equipping them with a fair and unique identity in the unpredictable competitive market.        </>
+      ),
+    },
+    {
+      question: "How do I get started with you?",
+      answer: (
+        <>
+It’s simple. Contact us to discuss your needs in detail. Our team will work very closely with you to guide you through the brand development services that best match your project goals.        </>
       ),
     },
   ];

@@ -1,13 +1,13 @@
 import React from "react";
 
 const cardsData = [
-  { heading: "Time Log", paragraph: "Track time accurately with real-time logs for attendance validation and monitoring of employees." },
-  { heading: "Training", paragraph: "Enhance skills through seamless training features for effective employee development strategies." },
-  { heading: "Events", paragraph: "Efficiently manage events, assign roles, and support people-centric activities with HappyForce." },
-  { heading: "Timeline", paragraph: "Stay updated on workplace activities and engage in discussions like social media platforms." },
-  { heading: "Records", paragraph: "Track performance, manage records and process approval effortlessly." },
-  { heading: "Dashboard", paragraph: "Empower board members with access control and geo-tracking for employee validation processes." },
-  { heading: "Roster", paragraph: "Customize work shifts, manage rosters, and handle rotations efficiently with HappyForce." },
+  { heading: "Time Tracking", paragraph: "Remember when tracking attendance felt like solving a Rubik's cube blindfolded? Our real-time logs are so smooth that they make Swiss watches look complicated." },
+  { heading: "Training", paragraph: "Watching paint dry is more exciting than most training programs – but not anymore. Our learning features turn employee development into a Netflix-worthy experience." },
+  { heading: "Events", paragraph: "Company events used to be a headache wrapped in a migraine. Now? They're smoother than ever. From role assignments to RSVPs, we've made event planning so easy for you.  " },
+  { heading: "Timeline", paragraph: `Stay in the loop, spark discussions, and build culture faster than you can say "team building." It's like having a water cooler that never runs dry.` },
+  { heading: "Records", paragraph: "Our digital records system is like having a personal assistant with a photographic memory. It allows you to track performance, process approvals, and find documents immediately." },
+  { heading: "Dashboard", paragraph: "Give your board members and managers the command center they deserve. Real-time insights, geo-tracking, and access controls make them feel like superheroes." },
+  { heading: "Roster", paragraph: "Managing shifts used to be like playing chess in the dark. Our roster system makes it easier. Custom shifts, rotation management, and scheduling that practically handles itself." },
 ];
 
 export default function SolutionSwiper() {

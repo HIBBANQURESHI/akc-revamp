@@ -2,26 +2,42 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "How long does it take to develop an Android app?",
+    question: "Do you offer wearable app development for businesses?",
     answer: (
       <>
-        Development timelines vary by project complexity. On average, it can take 4-12 months from concept to launch.
+        Yes. We specialize in wearable app development to assist businesses in building great innovative solutions for wearable devices. We provide custom wearable device app development services to enhance user experiences on smartwatches, fitness trackers, and more.      
       </>
     ),
   },
   {
-    question: "What is the cost of Android app development?",
+    question: "What are the benefits of working with a cross-platform app development company?",
     answer: (
       <>
-       Development costs range from $70,000 to $200,000, depending on the app’s features and technology stack.  
+       A cross-platform app development company develops efficient solutions across different platforms, such as iOS and Android. This reduces time and costs, as the same app is deployed across platforms, maximizing user reach via multiplatform mobile app development services.  
       </>
     ),
   },
   {
-    question: "Why should I choose AKC over other developers?",
+    question: "How do I get started with an app development consultant?",
     answer: (
       <>
-       Our experience with global brands, proven processes, and certified developers set us apart, ensuring your app is built to the highest standards.
+       This is a relatively easy process: you contact our experienced app development consultants, who will gauge your needs, provide custom solutions, and ensure smooth development.
+      </>
+    ),
+  },
+  {
+    question: "What industries do you serve with application development services?",
+    answer: (
+      <>
+        We serve industry verticals such as healthcare, education, e-commerce, etc. Our expertise covers mobile application services, wearable app development, and custom app development.
+      </>
+    ),
+  },
+  {
+    question: "Can you assist with the multiplatform mobile app development service?",
+    answer: (
+      <>
+       Our multiplatform mobile development service allows your app to reach as many users as possible while delivering the same great user experience across all platforms.
       </>
     ),
   },
@@ -39,8 +55,8 @@ export default function MobileFaq() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-8">
-      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300 px-32">Common questions about web development.</h1>
+    <div className="flex flex-col items-center mt-8 ">
+      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300 px-32">Frequently Asked Questions for Mobile App Development Services</h1>
 
       <div className="w-3/5 md:w-4/5">
         {faqs.map((faq, index) => (

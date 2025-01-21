@@ -30,12 +30,10 @@ export default function App() {
       </div>
       <div>
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mt-9 text-sky-300 max-w-7xl mx-auto px-6 font-sans">
-          Technologies we used
+        Technologies That Power Our Digital Brilliance
         </h1>
         <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mt-12 max-w-7xl mx-auto px-6 font-sans">
-          Hire from our pool of 350+ specialized experts in web, mobile, and software
-          <br /> engineering, specializing in the latest technologies and frameworks, ready to
-          <br /> scale your development teams effortlessly.
+        We don’t just ride the tech wave, we make our splash. At AKC Link Tech Digitizing, we bind tools to make projects that stop the scroll. From traditional print that pops to digital campaigns that dominate, we're your full-service creative powerhouse with the right tools. 
         </p>
         <div className="py-32 mx-auto px-6">
           <VerticalTab />

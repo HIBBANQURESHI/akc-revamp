@@ -1,15 +1,15 @@
 import React from "react";
 
 const cardsData = [
-  { heading: "Finance", paragraph: "Create targeted social media campaigns to build trust and engage your financial audience." },
-  { heading: "Healthcare", paragraph: "Develop compassionate and informative social media strategies that build trust in the healthcare industry." },
-  { heading: "Media", paragraph: "Craft bold and interactive social media content to enhance your media brand presence." },
-  { heading: "Telecom", paragraph: "Run innovative social media campaigns to highlight your telecom services and connect with customers." },
-  { heading: "Logistics", paragraph: "Engage your audience with efficient social media strategies that highlight your logistics reliability." },
-  { heading: "Automotive", paragraph: "Create dynamic social media campaigns that resonate with automotive enthusiasts and potential buyers." },
-  { heading: "Real Estate", paragraph: "Utilize social media to promote property listings and engage clients with real estate insights." },
-  { heading: "Education", paragraph: "Craft social media strategies that connect with students and educators, promoting learning and growth." },
-  { heading: "Energy", paragraph: "Leverage social media to showcase your commitment to sustainable practices and energy solutions." },
+  { heading: "Finance", paragraph: "From investment firms to cryptocurrency platforms, our social media marketing services make complex financial concepts easy to digest and even easier to love." },
+  { heading: "Healthcare", paragraph: "We’ve mastered the art of translating medical jargon into relatable, shareable content. We craft campaigns that educate, engage, and empower patients across platforms." },
+  { heading: "Media", paragraph: "When media meets meta, we create viral campaigns that leave an impression. We ensure maximum ROI while keeping your audience glued to their screens." },
+  { heading: "Telecom", paragraph: "Our social media marketing agency helps telecom brands connect with their customers in meaningful ways." },
+  { heading: "Logistics", paragraph: "From warehouse updates to real-time tracking solutions, our social media marketing management services transform logistics content into fascinating narratives." },
+  { heading: "Automotive", paragraph: "With custom social media marketing services, we’ve driven automotive brands to the forefront of social platforms. At AKC, we help brands accelerate their digital journeys." },
+  { heading: "Real Estate", paragraph: "Our social media marketing services are perfect for real estate agencies, helping them turn properties into must-see destinations." },
+  { heading: "Education", paragraph: "Whether it’s universities or e-learning platforms, our services help education brands connect with students in creative, relatable ways." },
+  { heading: "Energy", paragraph: "From renewable energy startups to power giants, we energize brands with expert SMM services that captivate and convert." },
 ];
 
 export default function SMMSwiper() {

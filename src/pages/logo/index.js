@@ -36,11 +36,11 @@ const Index = () => {
       <Navbar />
       <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
-          Logo Design <br />
-          <span className="font-bold">Services.</span>
+        Trendsetting Professional  <br />
+          <span className="font-semibold">Logo Design Services</span>
         </h2>
         <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
-          At AKC, we specialize in crafting striking and memorable logo designs that elevate your brand and make a lasting impression.
+        At AKC Link Tech Digitizing, we sketch logo impressions that will stay with your users long after seeing them. Are you ready to turn heads and drop jaws?
         </p>
       </div>
 
@@ -54,7 +54,7 @@ const Index = () => {
 
       <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-          Comprehensive logo design services.
+        Transform Your Brand's DNA with Custom Logo Design Services
         </h2>
         <LogoServices />
       </div>
@@ -69,11 +69,11 @@ const Index = () => {
         }}
       >
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-white mb-6">
-          Serving a variety of
-          <span className="text-sky-300 ml-4">industry.</span>
+        Industry We’ve Taken by 
+          <span className="text-sky-300 ml-4">Storm.</span>
         </h2>
-        <p className="text-white text-lg sm:text-xl lg:text-2xl py-8">
-          AKC provides innovative logo design solutions for businesses across various industries, helping them build a distinctive and memorable brand identity.
+        <p className="text-white text-lg sm:text-xl lg:text-2xl py-8 " >
+        Our brand development services hit the mark for your logo needs, irrespective of the industry you aim for. Here’s how we’ve helped transform each industry
         </p>
         <LogoSwiper />
       </div>
@@ -82,13 +82,23 @@ const Index = () => {
         <LogoFaq />
       </div>
 
-      <div className="text-center px-6 sm:px-12 lg:px-28">
+      <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at left center, #7dd3fc 5%, transparent 50%), 
+                radial-gradient(circle at right center, #7dd3fc 5%, transparent 50%)`,
+              backgroundColor: "#fff",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="text-center"
+          >
         <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6">
-          Pull The Trigger!
+        Ready to Light the Fuse?
         </p>
         <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
-          Ready to design
-          <span className="py-5 block">your logo?</span>
+        Let's Cut to The Chase
+          <span className="py-5 block"></span>
         </h2>
       </div>
 
