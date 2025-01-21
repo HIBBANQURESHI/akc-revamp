@@ -22,6 +22,7 @@ const ContactForm = () => {
           <div className="flex items-center">
             <a href="tel:8669782220" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
               713-632-2084
+              806-216-7666
             </a>
           </div>
         </div>
