@@ -9,6 +9,8 @@ import Footer from "@/components/Footer";
 import MobileService from "@/components/mobile/MobileService";
 import Testimonial from "@/components/Testimonial";
 import MobileFaq from "@/components/mobile/MobileFaq";
+import Image from "next/image";
+
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -63,7 +65,7 @@ const Index = () => {
       </div>
 
       <div>
-        <img
+        <Image
           src="https://images.ctfassets.net/mi665aivb0at/4FYzdSQJjSN4oZ3FZDpKEy/5ef6b3c4a1c5759c2175e642f7ae3f97/adndroidserviceHero.webp"
           alt="Web Development Services"
           className="w-full object-cover"
@@ -74,14 +76,18 @@ const Index = () => {
         <MobileService />
       </div>
 
-      <div
-        className="py-24 sm:py-36 text-center relative"
-        style={{
-          backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
-          backgroundColor: "#000",
-          backgroundSize: "100% 100%",
-        }}
-      >
+     <div
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at -30% 21% , rgb(108, 234, 243) 0px, transparent 30% ),
+                 radial-gradient(circle at 130% 80%, rgb(108, 234, 243) 0px, transparent 30%)`,
+              backgroundColor: "#000",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+              
+            }}
+            className="text-center py-14"
+          >
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
           Our clients simply love{" "}
           <span className="text-sky-300">what we do.</span>
@@ -112,7 +118,7 @@ const Index = () => {
         Ready to Light the Fuse?
         </p>
         <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
-        Let's Cut to The Chase
+        Let&apos;s Cut to The Chase
           <span className="py-5 block"></span>
         </h2>
       </div>

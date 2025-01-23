@@ -6,6 +6,7 @@ import Services from "@/components/website/Services";
 import Swiper from "@/components/website/Swpier";
 import FAQ from "@/components/website/FAQ";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -60,7 +61,7 @@ const Index = () => {
       </div>
 
       <div>
-        <img
+        <Image
           src="https://images.ctfassets.net/mi665aivb0at/54L24BJyewKZ5EGg3QH4VN/74c4dbe7ae446b64126e76603d893834/Web_Development_Services_Hero_Banner.webp"
           alt="Web Development Services"
           className="w-full"
@@ -126,7 +127,7 @@ const Index = () => {
         }}
       >
         <h2 className="px-6 sm:px-10 lg:px-72 text-white text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10">
-        Industries We've  
+        Industries We&apos;ve  
           <span className="text-sky-300 text-3xl sm:text-4xl lg:text-6xl font-semibold text-left ml-4">
           Revolutionized
           </span>
@@ -156,7 +157,7 @@ const Index = () => {
         Ready to Light the Fuse?
         </p>
         <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold font-sans mb-6 text-black">
-        Let's Cut to The Chase 
+        Let&apos;s Cut to The Chase 
           <span className="py-5 block"></span>
         </h2>
       </div>

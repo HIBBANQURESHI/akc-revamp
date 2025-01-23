@@ -10,6 +10,8 @@ import SMMFaq from "@/components/SMM/SMMFaq";
 import SolutionSwiper from "@/components/solution/SolutionSwiper";
 import AkcForce from "@/components/solution/AkcForce";
 import SolutionFaq from "@/components/solution/SolutionFaq";
+import Image from "next/image";
+
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -49,11 +51,11 @@ const Index = () => {
             <span className="font-semibold text-black">AKC Link Tech Digitizing.</span>
           </h2>
           <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal mb-6">
-          Ready to turn your HR department from paper-pushing to pulse-racing? At AKC Link Tech Digitizing, we've cracked the code on making workforce management actually enjoyable.
+          Ready to turn your HR department from paper-pushing to pulse-racing? At AKC Link Tech Digitizing, we&apos;ve cracked the code on making workforce management actually enjoyable.
           </p>
         </div>
         <div className="mt-10 md:mt-0 md:ml-16">
-          <img
+          <Image
             src="https://images.ctfassets.net/mi665aivb0at/sI1J7u6H0FrF7UFKu3inj/c9b1b4ca9f6740055bd079d2429463ce/hppyforcenewHero.webp"
             alt="HR Solution"
             className="w-full max-w-sm md:max-w-md lg:max-w-lg object-cover"
@@ -71,7 +73,7 @@ const Index = () => {
         }}
       >
         <h2 className="px-5 md:px-20 lg:px-72 text-white text-2xl sm:text-4xl lg:text-6xl font-semibold mb-10">
-       <span className="text-sky-300"> Features </span> That'll Make You How You Lived without Them <span className="text-sky-300">Wonder</span> HR
+       <span className="text-sky-300"> Features </span> That&apos;ll Make You How You Lived without Them <span className="text-sky-300">Wonder</span> HR
           software development services.
         </h2>
         <SolutionSwiper />
@@ -107,8 +109,8 @@ const Index = () => {
           >        <p className="text-xl text-black sm:text-lg lg:text-xl font-normal mb-6">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-6">
-        Let's Cut to the Chase
+        <h2 className="text-black text-3xl sm:text-5xl lg:text-7xl font-bold mb-6">
+        Let&apos;s Cut to the Chase
           <span className="block">your HR management?</span>
         </h2>
       </div>

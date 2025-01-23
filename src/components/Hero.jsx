@@ -31,8 +31,8 @@ const Hero = () => {
               isVerySmallScreen
                 ? 'text-3xl'
                 : isSmallScreen
-                ? 'text-4xl'
-                : 'text-8xl'
+                ? 'text-7xl'
+                : 'text-7xl'
             }`}
           >
             Don't Blend In  {' '}

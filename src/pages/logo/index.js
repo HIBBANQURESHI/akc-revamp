@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import LogoServices from "@/components/logo/LogoService";
 import LogoSwiper from "@/components/logo/LogoSwiper";
 import LogoFaq from "@/components/logo/LogoFaq";
+import Image from "next/image";
+
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -45,7 +47,7 @@ const Index = () => {
       </div>
 
       <div>
-        <img
+        <Image
           src="https://biziq.com/wp-content/uploads/logo-design.jpg"
           alt="Web Development Services"
           className="w-full object-cover"
@@ -54,7 +56,7 @@ const Index = () => {
 
       <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-black">
-        Transform Your Brand's DNA with Custom Logo Design Services
+        Transform Your Brand&apos;s DNA with Custom Logo Design Services
         </h2>
         <LogoServices />
       </div>
@@ -97,7 +99,7 @@ const Index = () => {
         Ready to Light the Fuse?
         </p>
         <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
-        Let's Cut to The Chase
+        Let&apos;s Cut to The Chase
           <span className="py-5 block"></span>
         </h2>
       </div>

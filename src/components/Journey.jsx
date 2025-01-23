@@ -28,7 +28,7 @@ const Journey = () => {
       </h2>
 
       {/* Subheading */}
-      <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mb-12 max-w-3xl">
+      <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mb-12 max-w-3xl text-black">
       We are full-stack, affordable American web developers who have started their journey towards being the best marketing experts in the USA. Ready to turn your spreadsheets into dollar signs? Pull up a seat at the winners' table; we've saved you a spot.
       </p>
 

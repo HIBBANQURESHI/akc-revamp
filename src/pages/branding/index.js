@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import BrandingServices from "@/components/branding/BrandingServices";
 import BrandingSwiper from "@/components/branding/BrandingSwiper";
 import BrandingFaq from "@/components/branding/BrandingFaq";
+import Image from "next/image";
+
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -44,7 +46,7 @@ const Index = () => {
       </div>
 
       <div>
-        <img
+        <Image
           src="https://www.netguru.com/hs-fs/hubfs/_N19%20Modules/Photos/Office%20Life/Netguru-Biuro-2018-6078%20_HD.jpg?width=2074&height=2074"
           alt="Web Development Services"
           className="w-full"
@@ -89,11 +91,11 @@ const Index = () => {
               backgroundRepeat: "no-repeat",
             }}
             className="text-center"
-          >        <p className="text-lg sm:text-xl lg:text-2xl font-normal mb-6">
+          >        <p className=" text-black text-lg sm:text-xl lg:text-2xl font-normal mb-6">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-        Let's Cut to The Chase
+        <h2 className="text-black text-4xl sm:text-5xl lg:text-7xl font-bold mb-6">
+        Let&apos;s Cut to The Chase
           <span className="block py-5"></span>
         </h2>
       </div>

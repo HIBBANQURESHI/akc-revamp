@@ -62,9 +62,9 @@ export default function SMMFaq() {
               className="flex justify-between items-center bg-transparent p-4 rounded-lg cursor-pointer"
               onClick={() => handleToggle(index)}
             >
-              <div className="text-3xl sm:text-lg lg:text-3xl font-semibold bg-transparent">{faq.question}</div>
+              <div className="text-3xl sm:text-lg lg:text-3xl font-semibold bg-transparent text-black">{faq.question}</div>
               <div
-                className={`transform transition-all duration-300 ${
+                className={`transform transition-all duration-300 text-black ${
                   activeIndex === index ? "rotate-45" : "text-3xl"
                 }`}
               >
@@ -77,7 +77,7 @@ export default function SMMFaq() {
                 activeIndex === index ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <div className="p-4 bg-gradient-to-r from-sky-300/80 to-white rounded-3xl text-lg sm:text-lg lg:text-xl">{faq.answer}</div>
+              <div className="text-black p-4 bg-gradient-to-r from-sky-300/80 to-white rounded-3xl text-lg sm:text-lg lg:text-xl">{faq.answer}</div>
             </div>
           </div>
         ))}

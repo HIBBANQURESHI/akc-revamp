@@ -19,7 +19,7 @@ const index = () => {
         >
           <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">Pull The Trigger!</p>
           <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
-            Let's bring your
+            Let&apos;s bring your
             <span className="py-5 block">vision to life.</span>
           </h2>
         </motion.div>

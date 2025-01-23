@@ -10,7 +10,7 @@ const AkcForce = () => {
       tags: [],
     },
     {
-      title: "Sky-rocket Productivity",
+      title: "Sky rocket Productivity",
       description:
         "Watch your team's output soar by fine amount. It's like having a crystal ball for workplace efficiency.",
       tags: [],
@@ -29,15 +29,15 @@ const AkcForce = () => {
       {cardData.map((card, index) => (
         <div
           key={index}
-          className="border border-black/80 rounded-lg p-6 hover:border-4 hover:border-sky-300 transition-all duration-300 min-h-[200px]"
+          className="border border-gray-300 rounded-lg p-6 hover:border-4 hover:border-sky-300 transition-all duration-300 min-h-[200px] min-w-[235px]"
         >
-          <h3 className="text-2xl lg:text-4xl sm:text-xl md:text-2xl text-left font-bold mb-4">{card.title}</h3>
+          <h3 className="text-2xl lg:text-3xl sm:text-xl md:text-2xl text-center font-bold mb-4 text-black">{card.title}</h3>
           <p className=" text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left text-black mb-4 font-light font-sans">{card.description}</p>
           <div className="flex flex-wrap gap-2">
             {card.tags.map((tag, i) => (
               <span
                 key={i}
-                className="px-3 py-1 text-2xl lg:text-sm sm:text-sm md:text-sm text-left text-sm text-black bg-white rounded-full border border-blue-500 font-normal"
+                className="px-3 py-1 text-2xl lg:text-sm sm:text-sm md:text-sm text-left text-black bg-white rounded-full border border-blue-500 font-normal"
               >
                 {tag}
               </span>

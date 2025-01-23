@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import SMMServices from "@/components/SMM/SMMServices";
 import SMMSwiper from "@/components/SMM/SMMSwiper";
 import SMMFaq from "@/components/SMM/SMMFaq";
+import Image from "next/image";
+
 
 // Counter Component
 const Counter = ({ endValue, duration }) => {
@@ -39,12 +41,12 @@ const Index = () => {
           <span className="font-semibold">Management Services.</span>
         </h2>
         <p className="text-black text-lg sm:text-xl lg:text-3xl font-normal text-left">
-        Have you ever seen a post so good it made you forget you were supposed to be working? That's our daily breakfast. As a social media marketing agency, AKC Link Tech Digitizing eats algorithms for lunch and turns your social presence from "umm" to "woah!"
+        Have you ever seen a post so good it made you forget you were supposed to be working? That&apos;s our daily breakfast. As a social media marketing agency, AKC Link Tech Digitizing eats algorithms for lunch and turns your social presence from &quot;umm&quot; to &quot;woah!&quot;
         </p>
       </div>
 
       <div>
-        <img
+        <Image
           src="https://www.anyawebsolution.in/images/smo-smm-services.jpg"
           alt="Web Development Services"
           className="w-full"
@@ -69,7 +71,7 @@ const Index = () => {
       >
         <div className="px-4 sm:px-10 lg:px-36">
           <h2 className="text-white text-2xl sm:text-3xl lg:text-5xl font-semibold mb-6">
-          Industries We've Invested  
+          Industries We&apos;ve Invested  
             <span className="text-sky-300"> Perfection Into.</span>
           </h2>
           <p className="text-white text-lg sm:text-xl font-normal mb-10">
@@ -96,8 +98,8 @@ const Index = () => {
           >        <p className="text-lg sm:text-xl font-normal text-black mb-6">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
-        Let's Cut to The Chase
+        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold text-black mb-6">
+        Let&apos;s Cut to The Chase
           <span className="block py-2"></span>
         </h2>
       </div>
