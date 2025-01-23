@@ -57,8 +57,8 @@ const Services = () => {
             key={index}
             className="flex flex-col p-6 rounded-lg h-full"
           >
-            <h3 className="text-2xl font-bold text-black mb-4">{service.title}</h3>
-            <p className="text-gray-700 text-lg flex-grow">{service.description}</p>
+            <h3 className="text-3xl sm:text-4xl lg:text-3xl font-bold text-black mb-4">{service.title}</h3>
+            <p className="text-black text-3xl sm:text-4xl lg:text-2xl flex-grow py-7">{service.description}</p>
           </div>
         ))}
       </div>

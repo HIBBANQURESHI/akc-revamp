@@ -52,7 +52,7 @@ const Industries = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="border rounded-lg p-6 hover:border-4 hover:border-sky-300 transition-all duration-300 min-h-[200px]"
+            className="border rounded-3xl p-6 hover:border-4 hover:border-sky-300 transition-all duration-300 min-h-[200px]"
           >
             <h3 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4">{card.title}</h3>
             <p className="text-lg sm:text-xl md:text-2xl font-light mb-4">{card.description}</p>
@@ -61,7 +61,7 @@ const Industries = () => {
               {card.tags.map((tag, i) => (
                 <span
                   key={i}
-                  className="px-3 py-1 text-sm sm:text-base lg:text-sm text-left text-black bg-white rounded-full border border-blue-500 font-normal"
+                  className="px-3 py-1 text-sm sm:text-base lg:text-md text-left text-black bg-white rounded-full border border-blue-500 font-normal"
                 >
                   {tag}
                 </span>

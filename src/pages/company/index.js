@@ -82,10 +82,10 @@ const Index = () => {
 
       {/* Intro Section */}
       <div className="py-20 px-6 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left py-20 text-sky-300">
         The Steps Towards Your Brand’s Success
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-2xl font-normal text-left mb-6 leading-relaxed">
+        <p className="text-black text-xl sm:text-2xl lg:text-3xl font-normal text-left mb-6 leading-relaxed">
         At AKC Link Tech Digitizing, we believe great solutions are built on rock-solid accountability, crystal-clear communication, and partnerships that feel like family. Here's how we turn you into an industry leader.
         </p>
       </div>

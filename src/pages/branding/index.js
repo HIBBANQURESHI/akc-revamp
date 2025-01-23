@@ -34,11 +34,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-20 xl:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl xl:text-7xl font-semibold text-left text-sky-300 py-20">
         Top-Class Brand Identity  <br />
           <span className="font-semibold">Development Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl xl:text-2xl font-normal text-left mb-6">
+        <p className="text-black text-lg sm:text-xl lg:text-3xl xl:text-3xl font-normal text-left mb-6">
         Is your branding missing the hues? Welcome to the intersection of strategy and style. Our brand development services provide commercial crusaders that dominate markets and drop jaws. As leaders in corporate brand development services, we know the difference between good and unforgettable.
         </p>
       </div>
@@ -52,8 +52,8 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-10 lg:px-20 xl:px-72 py-20">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
-        Finding Professional Branding Services? <br/>You’re In the Right Place
+        <h2 className="text-xs sm:text-lg lg:text-6xl font-semibold mb-6 text-black">
+        Finding Professional Branding Services? You’re In the Right Place
         </h2>
         <BrandingServices />
       </div>

@@ -53,11 +53,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-semibold text-left text-sky-300 py-14">
         No#1 Ranked Mobile<br />
-          <span className="font-bold">App Development Services.</span>
+          <span className="font-semibold">App Development Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
+        <p className=" text-black text-lg sm:text-xl lg:text-3xl font-normal text-left mb-6">
         Did the light bulb of your head light up with a new app idea? Have no clue where to take it? Our custom web app development services code dreams into realities. So, are you ready to witness how magic happens? Let’s explore.
         </p>
       </div>

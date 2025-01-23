@@ -50,11 +50,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left text-sky-300 py-16">
         Award Winning <br />
-          <span className="font-bold"> Web Development Company <br /> In the USA</span>
+          <span className="font-semibold"> Web Development Company <br /> In the USA</span>
         </h2>
-        <p className="py-5 text-black text-xl sm:text-2xl lg:text-2xl font-normal text-left mb-6">
+        <p className="text-black text-xl sm:text-2xl lg:text-3xl font-normal text-left mb-6">
         At AKC Link Tech Digitizing web development services, we make your competition hit the panic button. As a top web development company in the USA, we turn pixels into profit and concepts into conversions.
         </p>
       </div>
@@ -67,7 +67,7 @@ const Index = () => {
         />
       </div>
 
-      <div className="px-6 sm:px-10 lg:px-72 py-20">
+      <div className="px-6 sm:px-10 lg:px-72 py-40">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-10 text-sky-300">
         Why the Industry Giants Choose Us?
         </h2>
@@ -110,7 +110,7 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-black">
         Professional Website Development Services
         </h2>
         <Services />

@@ -25,7 +25,7 @@ export default function App() {
         <Journey />
       </div>
       <Slider />
-      <div className="py-9">
+      <div className="py-32">
         <Development />
       </div>
       <div>
@@ -39,19 +39,24 @@ export default function App() {
           <VerticalTab />
         </div>
         <div
-          className="py-36 mt-72 text-center relative"
-          style={{
-            backgroundImage: "radial-gradient(circle at left center,rgb(0, 0, 0) 5%, transparent 50%)",
-            backgroundColor: "#000",
-            backgroundSize: "100% 100%",
-          }}
-        >
-          <h2 className="mt-0 text-6xl font-semibold font-sans text-white">
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at -30% 21% , rgb(108, 234, 243) 0px, transparent 30% ),
+                 radial-gradient(circle at 130% 80%, rgb(108, 234, 243) 0px, transparent 30%)`,
+              backgroundColor: "#000",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+              
+            }}
+            className="text-center"
+          >
+          <h2 className="mt-0 py-36 text-6xl font-semibold font-sans text-white">
            Still in Doubt? Hear It from Our  <span className="text-sky-300">Happy Clients</span>
-          </h2>
-          <p className="text-white text-lg py-8 font-sans font-normal ">
+           <p className="text-white text-2xl py-16 font-sans font-normal ">
           Don’t just take our word for it hear from the people who’ve trusted AKC to turn their business upside down (For the good).
           </p>
+          </h2>
+         
           <Testimonial />
         </div>
         <div>

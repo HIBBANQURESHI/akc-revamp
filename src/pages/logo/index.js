@@ -35,11 +35,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-20 px-6 sm:py-32 sm:px-12 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-semibold text-left text-sky-300 py-20">
         Trendsetting Professional  <br />
           <span className="font-semibold">Logo Design Services</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
+        <p className="text-black text-lg sm:text-xl lg:text-3xl font-normal text-left mb-6">
         At AKC Link Tech Digitizing, we sketch logo impressions that will stay with your users long after seeing them. Are you ready to turn heads and drop jaws?
         </p>
       </div>
@@ -53,7 +53,7 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-black">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-black">
         Transform Your Brand's DNA with Custom Logo Design Services
         </h2>
         <LogoServices />

@@ -58,17 +58,17 @@ export default function FAQ() {
     <div className="flex flex-col items-center mt-8">
       <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-left mb-6 text-sky-300 px-32">Frequently Asked Questions for Website Design and Development Company</h1>
 
-      <div className="w-3/5 md:w-4/5">
+      <div className="w-3/5 md:w-4/5 py-14">
         {faqs.map((faq, index) => (
           <div key={index} className="mb-4">
             <div
-              className="flex justify-between items-center bg-transparent p-4 rounded-lg cursor-pointer"
+              className="flex justify-between items-center bg-transparent p-4 rounded-3xl cursor-pointer"
               onClick={() => handleToggle(index)}
             >
-              <div className="text-lg font-semibold bg-transparent">{faq.question}</div>
+              <div className="text-3xl sm:text-lg lg:text-3xl font-semibold bg-transparent">{faq.question}</div>
               <div
                 className={`transform transition-all duration-300 ${
-                  activeIndex === index ? "rotate-45" : ""
+                  activeIndex === index ? "rotate-45" : "text-3xl"
                 }`}
               >
                 &#43;
@@ -80,7 +80,7 @@ export default function FAQ() {
                 activeIndex === index ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <div className="p-4 bg-blue-400 rounded-3xl">{faq.answer}</div>
+              <div className="p-4 bg-gradient-to-r from-sky-300/80 to-white rounded-3xl text-lg sm:text-lg lg:text-xl">{faq.answer}</div>
             </div>
           </div>
         ))}

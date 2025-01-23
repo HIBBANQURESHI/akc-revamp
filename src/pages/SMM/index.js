@@ -34,11 +34,11 @@ const Index = () => {
     <div className="bg-slate-50">
       <Navbar />
       <div className="py-16 px-4 sm:py-20 lg:py-32 sm:px-10 lg:px-72">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-left mb-6 text-sky-300">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left text-sky-300 py-16">
         The Viral Social Media  <br />
           <span className="font-semibold">Management Services.</span>
         </h2>
-        <p className="py-5 text-black text-lg sm:text-xl lg:text-2xl font-normal text-left mb-6">
+        <p className="text-black text-lg sm:text-xl lg:text-3xl font-normal text-left">
         Have you ever seen a post so good it made you forget you were supposed to be working? That's our daily breakfast. As a social media marketing agency, AKC Link Tech Digitizing eats algorithms for lunch and turns your social presence from "umm" to "woah!"
         </p>
       </div>
@@ -52,7 +52,7 @@ const Index = () => {
       </div>
 
       <div className="px-4 sm:px-10 lg:px-72 py-20 lg:py-32">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-black">
+        <h2 className="text-2xl sm:text-3xl lg:text-6xl font-semibold mb-6 text-black">
         Social Media Marketing Services That Make Scrolling Addictive.
         </h2>
         <SMMServices />

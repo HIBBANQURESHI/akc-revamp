@@ -32,20 +32,21 @@ const Hero = () => {
                 ? 'text-3xl'
                 : isSmallScreen
                 ? 'text-4xl'
-                : 'text-6xl'
+                : 'text-8xl'
             }`}
           >
             Don't Blend In  {' '}
-            <span className="text-sky-300">Stand Out with AKC</span> <br />
-            <span className="text-sky-300"></span> <br />
+            <span className="text-sky-300">Stand Out with AKC</span>
+            <span className="text-white"></span> <br />
           </h1>
+          <div className='py-8'></div>
           <p
             className={`leading-relaxed ${
               isVerySmallScreen
                 ? 'text-sm max-w-xs'
                 : isSmallScreen
                 ? 'text-base max-w-md'
-                : 'text-xl max-w-lg'
+                : 'text-3xl'
             }`}
           >
             With the No#1 Website Design & Development Agency, your brand breaks the mold. Ready to turn those spreadsheets into gold mines? Let's turn your business into a household name.

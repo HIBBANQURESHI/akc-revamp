@@ -31,7 +31,7 @@ export default function VerticalTab() {
 
   const content = {
     1: {
-      title: "Mobile Apps",
+      title: "",
       sections: [
         {
           platform: "iOS",
@@ -42,7 +42,7 @@ export default function VerticalTab() {
           ],
         },
         {
-          platform: "Android",
+          platform: "",
           technologies: [
             { name: "Kotlin", icon: <SiKotlin /> },
             { name: "Java", icon: <DiJava /> },
@@ -52,7 +52,7 @@ export default function VerticalTab() {
       ],
     },
     2: {
-      title: "Web Platforms",
+      title: "",
       sections: [
         {
           platform: "Frontend",
@@ -72,7 +72,7 @@ export default function VerticalTab() {
       ],
     },
     3: {
-      title: "Cross Platforms",
+      title: "",
       sections: [
         {
           platform: "Frameworks",
@@ -84,7 +84,7 @@ export default function VerticalTab() {
       ],
     },
     4: {
-      title: "Games",
+      title: "",
       sections: [
         {
           platform: "Engines",
@@ -95,7 +95,7 @@ export default function VerticalTab() {
       ],
     },
     5: {
-      title: "Database",
+      title: "",
       sections: [
         {
           platform: "SQL Databases",
@@ -114,7 +114,7 @@ export default function VerticalTab() {
       ],
     },
     6: {
-      title: "Cloud & DevOps",
+      title: "",
       sections: [
         {
           platform: "Cloud Providers",
@@ -136,7 +136,7 @@ export default function VerticalTab() {
   return (
     <section className="technology">
       <div className="px-4 lg:px-8 max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row mt-8 md:mt-12 lg:mt-20 md:border-t border-gray-300">
+        <div className="flex flex-col md:flex-row mt-8 md:mt-12 lg:mt-20 md:border-t border-gray-300 py-5">
           {/* Tab List */}
           <div className="w-full md:w-1/4 lg:w-1/5 border-r border-gray-300 md:overflow-auto">
             <div role="tablist" aria-orientation="vertical" className="flex md:block overflow-x-auto">
@@ -147,9 +147,9 @@ export default function VerticalTab() {
                   id={`tab-${tab.id}`}
                   aria-selected={activeTab === tab.id}
                   aria-controls={`panel-${tab.id}`}
-                  className={`block py-5 px-4 font-medium text-left whitespace-nowrap ${
+                  className={`block py-5 px-4 text-2xl font-normal rounded-3xl text-left whitespace-nowrap ${
                     activeTab === tab.id
-                      ? "font-bold text-black bg-sky-200"
+                      ? "font-semibold text-black bg-gradient-to-r from-sky-200 to-white"
                       : "text-gray-500"
                   }`}
                   onClick={() => setActiveTab(tab.id)}
@@ -167,12 +167,12 @@ export default function VerticalTab() {
                 <h3 className="text-2xl font-bold mb-6">{content[activeTab].title}</h3>
                 {content[activeTab].sections.map((section, index) => (
                   <div key={index} className="mb-6">
-                    <h4 className="text-xl font-semibold mb-4">{section.platform}</h4>
+                    <h4 className="text-4xl font-normal mb-4">{section.platform}</h4>
                     <div className="flex flex-wrap gap-4">
                       {section.technologies.map((tech, techIndex) => (
                         <div
                           key={techIndex}
-                          className="group flex items-center gap-2 p-3 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+                          className="group flex items-center gap-2 p-3 rounded-3xl w-40 bg-gray-100 hover:bg-gray-100 transition"
                         >
                           <span className="text-xl">{tech.icon}</span>
                           <span className="font-medium group-hover:font-bold">
