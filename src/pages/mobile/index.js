@@ -65,11 +65,14 @@ const Index = () => {
       </div>
 
       <div>
-        <Image
-          src="https://images.ctfassets.net/mi665aivb0at/4FYzdSQJjSN4oZ3FZDpKEy/5ef6b3c4a1c5759c2175e642f7ae3f97/adndroidserviceHero.webp"
-          alt="Web Development Services"
-          className="w-full object-cover"
-        />
+      <Image
+        src="/assets/mobile.jpg"
+        alt="Web Development Services"
+        className="rounded-lg w-full h-auto"
+        width={1920} // Replace with actual width
+        height={1080} // Replace with actual height
+        priority
+      />
       </div>
 
       <div className="px-6 sm:px-12 lg:px-28 py-20 sm:py-32">

@@ -62,12 +62,12 @@ const Index = () => {
 
       <div>
       <Image
-        src="https://images.ctfassets.net/mi665aivb0at/54L24BJyewKZ5EGg3QH4VN/74c4dbe7ae446b64126e76603d893834/Web_Development_Services_Hero_Banner.webp"
+        src="/assets/website.jpg"
         alt="Web Development Services"
-        layout="responsive"
         width={1920} // Replace with actual width
         height={1080} // Replace with actual height
         priority
+        className="rounded-lg w-full h-auto"
       />
 
       </div>

@@ -47,11 +47,14 @@ const Index = () => {
       </div>
 
       <div>
-        <Image
-          src="https://biziq.com/wp-content/uploads/logo-design.jpg"
-          alt="Web Development Services"
-          className="w-full object-cover"
-        />
+      <Image
+        src="/assets/logoPage.jpg"
+        alt="Web Development Services"
+        className="rounded-lg w-full h-auto"
+        width={1920} // Replace with actual width
+        height={1080} // Replace with actual height
+        priority
+      />
       </div>
 
       <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">

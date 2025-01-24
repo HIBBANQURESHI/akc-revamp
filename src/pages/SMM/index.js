@@ -46,11 +46,14 @@ const Index = () => {
       </div>
 
       <div>
-        <Image
-          src="https://www.anyawebsolution.in/images/smo-smm-services.jpg"
-          alt="Web Development Services"
-          className="w-full"
-        />
+       <Image
+         src="/assets/smm.jpg"
+         alt="Web Development Services"  
+         width={1920} // Replace with actual width
+         height={1080} // Replace with actual height
+         priority
+         className="rounded-lg w-full h-auto"
+       />
       </div>
 
       <div className="px-4 sm:px-10 lg:px-72 py-20 lg:py-32">

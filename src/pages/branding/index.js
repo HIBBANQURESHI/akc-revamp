@@ -37,7 +37,7 @@ const Index = () => {
       <Navbar />
       <div className="py-20 px-6 sm:px-10 lg:px-20 xl:px-72">
         <h2 className="text-3xl sm:text-4xl lg:text-6xl xl:text-7xl font-semibold text-left text-sky-300 py-20">
-        Top-Class Brand Identity  <br />
+        Top Class Brand Identity  <br />
           <span className="font-semibold">Development Services.</span>
         </h2>
         <p className="text-black text-lg sm:text-xl lg:text-3xl xl:text-3xl font-normal text-left mb-6">
@@ -46,11 +46,14 @@ const Index = () => {
       </div>
 
       <div>
-        <Image
-          src="https://www.netguru.com/hs-fs/hubfs/_N19%20Modules/Photos/Office%20Life/Netguru-Biuro-2018-6078%20_HD.jpg?width=2074&height=2074"
-          alt="Web Development Services"
-          className="w-full"
-        />
+      <Image
+        src="/assets/branding.jpg"
+        alt="Web Development Services"
+        className="rounded-lg w-full h-auto"
+        width={1920} // Replace with actual width
+        height={1080} // Replace with actual height
+        priority
+      />
       </div>
 
       <div className="px-6 sm:px-10 lg:px-20 xl:px-72 py-20">

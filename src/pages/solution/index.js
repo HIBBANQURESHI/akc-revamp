@@ -55,11 +55,13 @@ const Index = () => {
           </p>
         </div>
         <div className="mt-10 md:mt-0 md:ml-16">
-          <Image
-            src="https://images.ctfassets.net/mi665aivb0at/sI1J7u6H0FrF7UFKu3inj/c9b1b4ca9f6740055bd079d2429463ce/hppyforcenewHero.webp"
-            alt="HR Solution"
-            className="w-full max-w-sm md:max-w-md lg:max-w-lg object-cover"
-          />
+      <Image
+        src="/assets/solution.png"
+        alt="Web Development Services"
+        width={1920} // Replace with actual width
+        height={1080} // Replace with actual height
+        priority
+        className="rounded-lg w-full h-auto"      />          
         </div>
       </div>
 
