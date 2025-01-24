@@ -1,9 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 
 const Hero = () => {
+  const [hasMounted, setHasMounted] = useState(false);
+
+  // Ensure this runs only on the client
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
   const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' });
   const isVerySmallScreen = useMediaQuery({ query: '(max-width: 425px)' });
+
+  // Fallback class names for server-side rendering
+  const headingClass = hasMounted
+    ? isVerySmallScreen
+      ? 'text-6xl'
+      : isSmallScreen
+      ? 'text-7xl'
+      : 'text-7xl'
+    : 'text-7xl'; // Default for SSR
+
+  const paragraphClass = hasMounted
+    ? isVerySmallScreen
+      ? 'text-lg max-w-xs'
+      : isSmallScreen
+      ? 'text-base max-w-md'
+      : 'text-3xl'
+    : 'text-3xl'; // Default for SSR
 
   return (
     <section className="relative w-full min-h-screen bg-black">
@@ -26,30 +50,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="text-left text-white space-y-0 max-w-3xl">
-          <h1
-            className={`font-bold ${
-              isVerySmallScreen
-                ? 'text-3xl'
-                : isSmallScreen
-                ? 'text-7xl'
-                : 'text-7xl'
-            }`}
-          >
-            Don't Blend In  {' '}
+          <h1 className={`font-bold ${headingClass}`}>
+            Don't Blend In{' '}
             <span className="text-sky-300">Stand Out with AKC</span>
-            <span className="text-white"></span> <br />
           </h1>
-          <div className='py-8'></div>
-          <p
-            className={`leading-relaxed ${
-              isVerySmallScreen
-                ? 'text-sm max-w-xs'
-                : isSmallScreen
-                ? 'text-base max-w-md'
-                : 'text-3xl'
-            }`}
-          >
-            With the No#1 Website Design & Development Agency, your brand breaks the mold. Ready to turn those spreadsheets into gold mines? Let's turn your business into a household name.
+          <div className="py-8"></div>
+          <p className={`leading-relaxed ${paragraphClass}`}>
+            With the No#1 Website Design & Development Agency, your brand
+            breaks the mold. Ready to turn those spreadsheets into gold mines?
+            Let's turn your business into a household name.
           </p>
         </div>
       </div>

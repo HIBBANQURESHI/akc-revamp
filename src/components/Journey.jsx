@@ -28,8 +28,8 @@ const Journey = () => {
       </h2>
 
       {/* Subheading */}
-      <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mb-12 max-w-3xl text-black">
-      We are full-stack, affordable American web developers who have started their journey towards being the best marketing experts in the USA. Ready to turn your spreadsheets into dollar signs? Pull up a seat at the winners' table; we've saved you a spot.
+      <p className="text-2xl lg:text-2xl sm:text-xl md:text-2xl text-left font-normal mb-12 max-w-7xl text-black">
+      We are full-stack, affordable American web developers who have started their journey towards being the best marketing experts in the USA. Ready to turn your spreadsheets into dollar signs? Pull up a seat at the winners' table we've saved you a spot.
       </p>
 
 {/* Counter Section */}
@@ -37,7 +37,7 @@ const Journey = () => {
 {/* Completed Projects */}
 <div className="text-left bg-white p-6 rounded-xl transition-all duration-300 group hover:text-sky-300">
   <h3 className="text-7xl font-normal text-black transition-colors duration-300 group-hover:text-sky-300">
-  <span className="text-black transition-colors duration-300 group-hover:text-text-sky-300">$</span>
+  <span className="text-black transition-colors duration-300 group-hover:text-text-sky-300 font-normal">$</span>
     <Counter endValue={3.4} duration={200} />
     <span className="text-black transition-colors duration-300 group-hover:text-text-sky-300">M</span>
   </h3>
