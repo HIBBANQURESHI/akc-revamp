@@ -51,8 +51,8 @@ export default function LogoFaq() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-8">
-      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300 px-32">Common questions about web development.</h1>
+    <div className="flex flex-col px-14 mt-8">
+      <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold text-left mb-6 text-sky-300">Common questions about web development.</h1>
 
       <div className="w-3/5 md:w-4/5 py-14">
         {faqs.map((faq, index) => (
