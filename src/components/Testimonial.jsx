@@ -11,6 +11,7 @@ function Testimonial() {
     width: "62%",
     backgroundColor: "transparent",
   }}
+  data-aos="zoom-in-up"
 >
   <p className="text-xs sm:text-xl text-white mb-4 text-left lg:text-3xl py-8">
     "Our website woke up to a new dawn with AKC. Best software agency 2025? They deserve that crown."
@@ -46,6 +47,7 @@ function Testimonial() {
           width: "62%",
           backgroundColor: "transparent",
         }}
+        data-aos="zoom-in-up"
       >
         <p className="text-xs sm:text-xs text-white mb-4 text-left lg:text-3xl py-7">
         "We needed to hire American web designers, and AKC delivered beyond expectations. Their process was seamless, and the results speak for themselves."        </p>
@@ -79,6 +81,7 @@ function Testimonial() {
           width: "62%",
           backgroundColor: "transparent",
         }}
+        data-aos="zoom-in-up"
       >
         <p className="text-xs sm:text-md lg:text-3xl text-white mb-4 text-left py-7">
         "AKC Link Tech Digitizing is the most affordable American web developer in the USA, and they left no place undone in transforming our outdated website into a modern masterpiece. I highly recommend them."
@@ -113,6 +116,7 @@ function Testimonial() {
           width: "62%",
           backgroundColor: "transparent",
         }}
+        data-aos="zoom-in-up"
       >
         <p className="text-xs sm:text-md lg:text-3xl text-white mb-4 text-left py-7">
         "Working with the USA’s best app developer was a game-changer for our finance startup. I’ve never seen this professionalism and quality anywhere else."
@@ -146,6 +150,7 @@ function Testimonial() {
           width: "62%",
           backgroundColor: "transparent",
         }}
+        data-aos="zoom-in-up"
       >
         <p className="text-xs sm:text-md lg:text-3xl text-white mb-4 text-left py-7">
         "The team’s expertise in digital marketing made our brand a standout. There’s no doubt in calling them the top digital marketing company we need."
