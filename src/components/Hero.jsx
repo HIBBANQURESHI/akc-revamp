@@ -15,18 +15,18 @@ const Hero = () => {
   // Fallback class names for server-side rendering
   const headingClass = hasMounted
     ? isVerySmallScreen
-      ? 'text-6xl'
+      ? 'text-5xl'
       : isSmallScreen
-      ? 'text-7xl'
+      ? 'text-6xl'
       : 'text-7xl'
-    : 'text-7xl'; // Default for SSR
+    : 'text-8xl'; // Default for SSR
 
   const paragraphClass = hasMounted
     ? isVerySmallScreen
-      ? 'text-lg max-w-xs'
+      ? 'text-lg'
       : isSmallScreen
-      ? 'text-base max-w-md'
-      : 'text-3xl'
+      ? 'text-xl'
+      : 'text-2xl'
     : 'text-3xl'; // Default for SSR
 
   return (
@@ -50,7 +50,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="text-left text-white space-y-0 max-w-3xl">
-          <h1 className={`font-bold ${headingClass}`}>
+          <h1 className={`font-bold ${headingClass} `}>
             Don't Blend In{' '}
             <span className="text-sky-300">Stand Out with AKC</span>
           </h1>

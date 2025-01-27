@@ -5,6 +5,8 @@ import BrandingServices from "@/components/branding/BrandingServices";
 import BrandingSwiper from "@/components/branding/BrandingSwiper";
 import BrandingFaq from "@/components/branding/BrandingFaq";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 // Counter Component
@@ -32,6 +34,12 @@ const Counter = ({ endValue, duration }) => {
 };
 
 const Index = () => {
+
+    useEffect(() => {
+      // Initialize AOS library
+      AOS.init({ duration: 700 });
+    }, []);
+
   return (
     <div className="bg-slate-50">
       <Navbar />
@@ -57,7 +65,7 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-10 lg:px-20 xl:px-72 py-20">
-        <h2 className="text-xs sm:text-lg lg:text-6xl font-semibold mb-6 text-black">
+        <h2 className="text-3xl sm:text-3xl lg:text-4xl xl:text-6xl font-semibold mb-6 text-black">
         Finding Professional Branding Services? You’re In the Right Place
         </h2>
         <BrandingServices />
@@ -94,10 +102,11 @@ const Index = () => {
               backgroundRepeat: "no-repeat",
             }}
             className="text-center"
-          >        <p className=" text-black text-lg sm:text-xl lg:text-2xl font-normal mb-6">
-        Ready to Light the Fuse?
-        </p>
-        <h2 className="text-black text-4xl sm:text-5xl lg:text-7xl font-bold mb-6">
+          >
+          <p className=" text-black text-lg sm:text-xl lg:text-2xl font-normal mb-6" data-aos="fade-down">
+          Ready to Light the Fuse?
+          </p>
+        <h2 className="text-black text-4xl sm:text-5xl lg:text-7xl font-bold mb-6" data-aos="fade-down">
         Let&apos;s Cut to The Chase
           <span className="block py-5"></span>
         </h2>

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const cardsData = [
   { heading: "Time Tracking", paragraph: "Remember when tracking attendance felt like solving a Rubik's cube blindfolded? Our real-time logs are so smooth that they make Swiss watches look complicated." },
@@ -11,6 +13,12 @@ const cardsData = [
 ];
 
 export default function SolutionSwiper() {
+
+    useEffect(() => {
+      // Initialize AOS library
+      AOS.init({ duration: 700 });
+    }, []);
+  
   return (
     <div className="container mx-auto mt-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -18,8 +26,9 @@ export default function SolutionSwiper() {
           <div
             key={index}
             className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-3xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos = "fade-down"
           >
-            <div className="p-4 w-full max-w-[317.91px] h-auto flex flex-col justify-between">
+            <div className="p-4 w-full max-w-[317.91px] h-auto flex flex-col justify-between" data-aos = "fade-down">
               <h6 className="text-3xl text-white font-semibold mb-2">{card.heading}</h6>
               <p className="text-xl text-white">{card.paragraph}</p>
             </div>

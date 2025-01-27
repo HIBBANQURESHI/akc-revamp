@@ -1,4 +1,6 @@
-import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const cardsData = [
   { heading: "Finance", paragraph: "Making money look good is our forte. From banks to fintech startups, our American logo designers craft logos that exude credibility and professionalism." },
@@ -13,6 +15,12 @@ const cardsData = [
 ];
 
 export default function LogoSwiper() {
+
+    useEffect(() => {
+      // Initialize AOS library
+      AOS.init({ duration: 700 });
+    }, []);
+
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -20,8 +28,9 @@ export default function LogoSwiper() {
           <div
             key={index}
             className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos = "fade-down"
           >
-            <div className="p-6 flex flex-col justify-between">
+            <div className="p-6 flex flex-col justify-between" data-aos = "fade-down">
               <h6 className="text-2xl lg:text-3xl text-white font-bold mb-4">{card.heading}</h6>
               <p className="text-lg lg:text-xl text-gray-300">{card.paragraph}</p>
             </div>

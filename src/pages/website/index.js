@@ -157,10 +157,10 @@ const Index = () => {
             }}
             className="text-center"
           >
-        <p className="text-xl sm:text-sm lg:text-xl font-normal font-sans mb-6 text-black">
+        <p className="text-xl sm:text-sm lg:text-xl font-normal font-sans mb-6 text-black" data-aos = "fade-down">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold font-sans mb-6 text-black">
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold font-sans mb-6 text-black" data-aos = "fade-down">
         Let&apos;s Cut to The Chase 
           <span className="py-5 block"></span>
         </h2>

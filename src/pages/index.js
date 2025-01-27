@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 export default function App() {
   useEffect(() => {
     // Initialize AOS library
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 700 });
   }, []);
 
   return (
@@ -71,14 +71,14 @@ export default function App() {
               backgroundSize: "100% 100%",
               backgroundRepeat: "no-repeat",
             }}
-            className="text-center"
+            className="text-center" 
           >
-          <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6">
+          <p className="text-xl text-black sm:text-sm lg:text-xl font-normal font-sans mb-6" data-aos = "fade-down">
           Ready to Light the Fuse?
           </p>
-          <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6">
+          <h2 className="text-5xl text-black sm:text-md lg:text-7xl font-bold font-sans mb-6" data-aos = "fade-down">
           Let&apos;s Cut to The Chase 
-            <span className="py-5 block">vision to life.</span>
+            <span className="py-5 block" data-aos = "fade-down">vision to life.</span>
           </h2>
         </div>
       </div>

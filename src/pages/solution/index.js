@@ -1,43 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
 import Footer from "@/components/Footer";
-import BrandingServices from "@/components/branding/BrandingServices";
-import BrandingSwiper from "@/components/branding/BrandingSwiper";
-import BrandingFaq from "@/components/branding/BrandingFaq";
-import SMMServices from "@/components/SMM/SMMServices";
-import SMMSwiper from "@/components/SMM/SMMSwiper";
-import SMMFaq from "@/components/SMM/SMMFaq";
 import SolutionSwiper from "@/components/solution/SolutionSwiper";
 import AkcForce from "@/components/solution/AkcForce";
 import SolutionFaq from "@/components/solution/SolutionFaq";
 import Image from "next/image";
-
-
-// Counter Component
-const Counter = ({ endValue, duration }) => {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    const increment = Math.ceil(endValue / (duration / 1000));
-    let currentCount = 0;
-
-    const interval = setInterval(() => {
-      currentCount += increment;
-      if (currentCount >= endValue) {
-        clearInterval(interval);
-        setCount(endValue);
-      } else {
-        setCount(currentCount);
-      }
-    }, 1000 / 60); // Update approximately 60 times per second
-
-    return () => clearInterval(interval); // Clean up interval on unmount
-  }, [endValue, duration]);
-
-  return <span>{count.toLocaleString()}</span>;
-};
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Index = () => {
+
+      useEffect(() => {
+        // Initialize AOS library
+        AOS.init({ duration: 700 });
+      }, []);
+    
+
   return (
     <div className="bg-slate-50">
       <Navbar />
@@ -108,12 +86,12 @@ const Index = () => {
               backgroundRepeat: "no-repeat",
             }}
             className="text-center py-8"
-          >        <p className="text-xl text-black sm:text-lg lg:text-xl font-normal mb-6">
+          >        <p className="text-xl text-black sm:text-lg lg:text-xl font-normal mb-6" data-aos="fade-down">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-black text-3xl sm:text-5xl lg:text-7xl font-bold mb-6">
+        <h2 className="text-black text-3xl sm:text-5xl lg:text-7xl font-bold mb-6" data-aos="fade-down">
         Let&apos;s Cut to the Chase
-          <span className="block">your HR management?</span>
+          <span className="block" data-aos="fade-down">your HR management?</span>
         </h2>
       </div>
       <div className="py-16"></div>

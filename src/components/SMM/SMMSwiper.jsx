@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const cardsData = [
   { heading: "Finance", paragraph: "From investment firms to cryptocurrency platforms, our social media marketing services make complex financial concepts easy to digest and even easier to love." },
@@ -13,6 +15,13 @@ const cardsData = [
 ];
 
 export default function SMMSwiper() {
+
+    useEffect(() => {
+      // Initialize AOS library
+      AOS.init({ duration: 700 });
+    }, []);
+  
+
   return (
     <div className="container mx-auto mt-4 px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -20,8 +29,9 @@ export default function SMMSwiper() {
           <div
             key={index}
             className="flex flex-col justify-between bg-transparent border border-sky-300 shadow-lg rounded-3xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-down"
           >
-            <div className="p-6 flex flex-col justify-between">
+            <div className="p-6 flex flex-col justify-between" data-aos="fade-down">
               <h6 className="text-2xl sm:text-3xl font-semibold text-white mb-3">
                 {card.heading}
               </h6>

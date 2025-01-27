@@ -1,37 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "@/components/DesktopMenu";
 import Footer from "@/components/Footer";
 import SMMServices from "@/components/SMM/SMMServices";
 import SMMSwiper from "@/components/SMM/SMMSwiper";
 import SMMFaq from "@/components/SMM/SMMFaq";
 import Image from "next/image";
-
-
-// Counter Component
-const Counter = ({ endValue, duration }) => {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    const increment = Math.ceil(endValue / (duration / 1000));
-    let currentCount = 0;
-
-    const interval = setInterval(() => {
-      currentCount += increment;
-      if (currentCount >= endValue) {
-        clearInterval(interval);
-        setCount(endValue);
-      } else {
-        setCount(currentCount);
-      }
-    }, 1000 / 60); // Update approximately 60 times per second
-
-    return () => clearInterval(interval); // Clean up interval on unmount
-  }, [endValue, duration]);
-
-  return <span>{count.toLocaleString()}</span>;
-};
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Index = () => {
+
+      useEffect(() => {
+        // Initialize AOS library
+        AOS.init({ duration: 700 });
+      }, []);
+
   return (
     <div className="bg-slate-50">
       <Navbar />
@@ -57,7 +40,7 @@ const Index = () => {
       </div>
 
       <div className="px-4 sm:px-10 lg:px-72 py-20 lg:py-32">
-        <h2 className="text-2xl sm:text-3xl lg:text-6xl font-semibold mb-6 text-black">
+        <h2 className="text-3xl sm:text-3xl lg:text-4xl xl:text-6xl font-semibold mb-6 text-black">
         Social Media Marketing Services That Make Scrolling Addictive.
         </h2>
         <SMMServices />
@@ -98,10 +81,11 @@ const Index = () => {
               backgroundRepeat: "no-repeat",
             }}
             className="text-center py-10"
-          >        <p className="text-lg sm:text-xl font-normal text-black mb-6">
-        Ready to Light the Fuse?
-        </p>
-        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold text-black mb-6">
+          >
+            <p className="text-lg sm:text-xl font-normal text-black mb-6" data-aos="fade-down">
+            Ready to Light the Fuse?
+            </p>
+        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold text-black mb-6" data-aos="fade-down">
         Let&apos;s Cut to The Chase
           <span className="block py-2"></span>
         </h2>

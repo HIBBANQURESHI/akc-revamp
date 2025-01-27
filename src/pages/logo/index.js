@@ -6,6 +6,8 @@ import LogoServices from "@/components/logo/LogoService";
 import LogoSwiper from "@/components/logo/LogoSwiper";
 import LogoFaq from "@/components/logo/LogoFaq";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 // Counter Component
@@ -33,6 +35,12 @@ const Counter = ({ endValue, duration }) => {
 };
 
 const Index = () => {
+
+      useEffect(() => {
+        // Initialize AOS library
+        AOS.init({ duration: 700 });
+      }, []);
+  
   return (
     <div className="bg-slate-50">
       <Navbar />
@@ -58,7 +66,7 @@ const Index = () => {
       </div>
 
       <div className="px-6 sm:px-12 lg:px-72 py-20 sm:py-32">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-semibold mb-6 text-black">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-6xl font-semibold mb-6 text-black">
         Transform Your Brand&apos;s DNA with Custom Logo Design Services
         </h2>
         <LogoServices />
@@ -98,10 +106,10 @@ const Index = () => {
             }}
             className="text-center"
           >
-        <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6">
+        <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6" data-aos="fade-down">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
+        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6" data-aos="fade-down">
         Let&apos;s Cut to The Chase
           <span className="py-5 block"></span>
         </h2>

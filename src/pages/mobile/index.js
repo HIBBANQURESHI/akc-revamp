@@ -38,7 +38,7 @@ const Counter = ({ endValue, duration }) => {
 
 const Index = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false }); // Initialize AOS with settings
+    AOS.init({ duration: 700, once: false }); // Initialize AOS with settings
     window.addEventListener("scroll", () => {
       AOS.refresh(); // Refresh AOS on scroll
     });
@@ -117,10 +117,10 @@ const Index = () => {
             }}
             className="text-center"
           >
-        <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6">
+        <p className="text-lg sm:text-xl lg:text-2xl text-black font-normal mb-6" data-aos = "fade-down">
         Ready to Light the Fuse?
         </p>
-        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6">
+        <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-black mb-6" data-aos = "fade-down">
         Let&apos;s Cut to The Chase
           <span className="py-5 block"></span>
         </h2>

@@ -46,8 +46,8 @@ const SMMServices = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div key={index} className="text-left">
-            <h3 className="text-3xl sm:text-4xl lg:text-3xl font-bold text-black mb-4">{service.title}</h3>
-            <p className="text-black text-3xl sm:text-4xl lg:text-2xl flex-grow py-7">{service.description}</p>
+            <h3 className="text-xl sm:text-2xl lg:text-sm xl:text-3xl lg:text-left font-bold text-black mb-4">{service.title}</h3>
+            <p className="text-black text-lg sm:text-xl lg:text-sm xl:text-xl py-7">{service.description}</p>
           </div>
         ))}
       </div>
