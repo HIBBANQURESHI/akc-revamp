@@ -78,6 +78,10 @@ const Navbar = () => {
           <li>
             <a href="/contact" onClick={closeMobileNav}>Contact</a>
           </li>
+          <li>
+            <a href="/blog" onClick={closeMobileNav}>Blogs</a>
+          </li>
+
         </ul>
       </div>
 
@@ -143,12 +147,21 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              href="/blog"
+              className="nav-link text-white font-medium hover:text-sky-300"
+            >
+              Blogs
+            </a>
+          </li>
+          <li>
+            <a
               href="/contact"
               className="nav-link text-white font-medium hover:text-sky-300"
             >
               Contact
             </a>
           </li>
+      
         </ul>
 
         {/* Hamburger Icon for Small Screens */}
