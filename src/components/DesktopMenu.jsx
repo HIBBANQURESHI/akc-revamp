@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Image from "next/image";
+
 
 const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -89,7 +91,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 w-full h-16 bg-black/30 text-white flex items-center justify-between px-5 z-50 backdrop-blur-md">
         <div className="flex items-center">
           <a href="/">
-            <img src="assets/logo.png" className="w-24 h-20" alt="Logo" />
+            <Image src="assets/logo.png" className="w-24 h-20" alt="Logo" />
           </a>
         </div>
 
