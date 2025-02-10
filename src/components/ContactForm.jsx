@@ -1,6 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [responseMessage, setResponseMessage] = useState("");
+
+  // Handle input change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+      setResponseMessage("Please fill in all required fields.");
+      return;
+    }
+
+    setLoading(true);
+    setResponseMessage("");
+
+    try {
+      const response = await fetch("http://localhost:3003/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        setResponseMessage("Message Sent Successfully!");
+        setFormData({ name: "", email: "", phone: "", message: "" }); // Reset form
+      } else {
+        setResponseMessage(result.message || "Failed to send message.");
+      }
+    } catch (error) {
+      setResponseMessage("An error occurred. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between px-6 sm:px-12 lg:px-24 py-16 bg-white">
       {/* Left Section */}
@@ -15,13 +63,13 @@ const ContactForm = () => {
 
         <div className="mt-10 space-y-4">
           <div className="flex items-center">
-            <a href="mailto:info@cubix.co" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
+            <a href="mailto:info@akc.com" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
               info@akc.com
             </a>
           </div>
           <div className="flex items-center">
-            <a href="tel:8669782220" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
-              713-632-2084 <br/> 
+            <a href="tel:7136322084" className="text-2xl sm:text-3xl lg:text-2xl text-black leading-relaxed">
+              713-632-2084 <br />
               806-216-7666
             </a>
           </div>
@@ -30,7 +78,7 @@ const ContactForm = () => {
 
       {/* Right Section */}
       <div className="lg:w-1/2">
-        <form className="w-full space-y-6">
+        <form onSubmit={handleSubmit} className="w-full space-y-6">
           {/* Name Field */}
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -40,6 +88,8 @@ const ContactForm = () => {
               type="text"
               id="name"
               name="name"
+              value={formData.name}
+              onChange={handleChange}
               required
               className="mt-2 w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:outline-none"
             />
@@ -55,6 +105,8 @@ const ContactForm = () => {
                 type="email"
                 id="email"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
                 required
                 className="mt-2 w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:outline-none"
               />
@@ -67,6 +119,8 @@ const ContactForm = () => {
                 type="tel"
                 id="phone"
                 name="phone"
+                value={formData.phone}
+                onChange={handleChange}
                 required
                 className="mt-2 w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:outline-none"
               />
@@ -82,6 +136,8 @@ const ContactForm = () => {
               id="message"
               name="message"
               rows="4"
+              value={formData.message}
+              onChange={handleChange}
               required
               className="mt-2 w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:outline-none"
             ></textarea>
@@ -91,11 +147,19 @@ const ContactForm = () => {
           <div>
             <button
               type="submit"
-              className="w-full py-3 bg-black text-white font-medium text-lg rounded-md hover:bg-gray-800 transition"
+              className={`w-full py-3 font-medium text-lg rounded-md transition ${
+                loading ? "bg-gray-600 cursor-not-allowed" : "bg-black text-white hover:bg-gray-800"
+              }`}
+              disabled={loading}
             >
-              Send Message
+              {loading ? "Sending..." : "Send Message"}
             </button>
           </div>
+
+          {/* Response Message */}
+          {responseMessage && (
+            <p className="text-center text-sm font-medium text-red-500">{responseMessage}</p>
+          )}
         </form>
       </div>
     </div>
