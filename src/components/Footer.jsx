@@ -53,7 +53,7 @@ const Footer = () => {
         {/* Contact Section */}
         <div className="mb-6 sm:mb-0">
           <h3 className="text-3xl font-semibold mb-2">Contact</h3>
-          <p className="text-xl">866-978-2220</p>
+          <p className="text-xl">+1 (713) 632-2084</p>
           <p className="text-xl">info@akclinktech.com</p>
         </div>
 
