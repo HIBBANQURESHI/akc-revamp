@@ -1,10 +1,10 @@
-require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 
 const app = express();
 app.use(express.json());
+
 
 // Configure CORS (Allow specific frontend origin)
 app.use(cors({
@@ -17,8 +17,8 @@ app.use(cors({
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER, // Your email
-    pass: process.env.EMAIL_PASS, // App password
+    user: "akclinktechdigitizing@gmail.com", // Your email
+    pass: "wfmv doza gxrj ihag" // App password
   },
 });
 
@@ -56,7 +56,7 @@ app.post('/contact', async (req, res) => {
 });
 
 // Define Port & Start Server
-const PORT = process.env.PORT || 3003;
+const PORT = 3003;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
